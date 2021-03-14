@@ -2,7 +2,7 @@
 
 
  <body style="overflow-x: hidden;">
-        <WDesign></WDesign>
+        <Heros></Heros>
         <WArchitektur></WArchitektur>
         <Absolventen></Absolventen>
         <Aftershowparty></Aftershowparty>
@@ -24,7 +24,7 @@
 
 </template>
 <script>
-import WDesign from "./components/WDesign";
+import Heros from "./components/Heros";
 import WArchitektur from "./components/WArchitektur";
 import Absolventen from "./components/Absolventen";
 import Aftershowparty from "./components/Aftershowparty";
@@ -45,7 +45,7 @@ import InfoEight from "./components/InfoEight";
 export default {
   name: "components",
   components: {
-    WDesign,
+    Heros,
     WArchitektur,
     Absolventen,
     Aftershowparty,

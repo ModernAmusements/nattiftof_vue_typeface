@@ -1101,7 +1101,7 @@ header {
     background-color: var(--c-primary);
 }
 
-.hero {
+/* .hero {
     position: relative;
     z-index: 3;
     color: var(--c-orange);
@@ -1626,7 +1626,7 @@ header {
 .hero-pop-up-img {
     height: 1.6666666667vw;
     fill: var(--c-secondary);
-}
+} */
 
 footer {
     background-color: var(--c-g-5);

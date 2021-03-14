@@ -211,7 +211,7 @@ html {
 (hover:none) {
     html {
         height: 100%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
 
@@ -671,7 +671,7 @@ input::selection {
 
 @media (max-width: 767px) {
     .h4 {
-        font-size: 3.7333333333vw;
+        font-size: 3vw;
         line-height: 5.8666666667vw;
     }
 }
@@ -1628,7 +1628,7 @@ header {
     fill: var(--c-secondary);
 } */
 
-footer {
+/* footer {
     background-color: var(--c-g-5);
     color: var(--c-secondary);
     padding: 6.6666666667vw 4.5833333333vw 0 4.5833333333vw;
@@ -1792,9 +1792,9 @@ footer {
         margin-left: -6.4vw;
         margin-bottom: -2.1333333333vw;
     }
-}
+} */
 
-.section-editor {
+/* .section-editor {
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -2191,7 +2191,7 @@ footer {
     .canvas-overlay {
         height: 41.6145833333vw;
     }
-}
+} */
 
 .invert {
     mix-blend-mode: exclusion;
@@ -2419,7 +2419,7 @@ footer {
     color: var(--c-g-3);
 }
 
-.text-editor {
+/* .text-editor {
     position: relative;
     background-color: var(--c-g-5);
     border-top: 0.0520833333vw solid var(--c-g-4);
@@ -2874,7 +2874,7 @@ footer {
         background-color: var(--c-orange);
         color: var(--c-g-1);
     }
-}
+} */
 
 @media (min-width: 1025px) {
     .no-otf-a span:hover {

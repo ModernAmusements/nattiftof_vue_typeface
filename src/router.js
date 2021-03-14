@@ -2,10 +2,11 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
+import Typelab from "./views/Typelab.vue";
+
 import Landing from "./views/Landing.vue";
-import Login from "./views/Login.vue";
-import Register from "./views/Register.vue";
+import about from "./views/about.vue";
+import Privacy from "./views/Privacy.vue";
 import Profile from "./views/Profile.vue";
 
 Vue.use(Router);
@@ -15,10 +16,10 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "components",
+      name: "Typelab",
       components: {
         header: AppHeader,
-        default: Components,
+        default: Typelab,
         footer: AppFooter
       }
     },
@@ -31,20 +32,20 @@ export default new Router({
       }
     },
     {
-      path: "/login",
-      name: "login",
+      path: "/about",
+      name: "about",
       components: {
         header: AppHeader,
-        default: Login,
+        default: about,
         footer: AppFooter
       }
     },
     {
-      path: "/register",
-      name: "register",
+      path: "/privacy",
+      name: "Privacy",
       components: {
         header: AppHeader,
-        default: Register,
+        default: Privacy,
         footer: AppFooter
       }
     },

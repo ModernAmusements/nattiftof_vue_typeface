@@ -2,7 +2,9 @@
     <footer>
         <div class="f-top h7 w400">
             <div class="f-left">
-                <div class="f-inf"><span>© 2021 Spacetype Ltd.</span> <a href="privacy-policy" target="_blank">Privacy Policy↗</a></div>
+                <div class="f-inf"><span>© 2021 Spacetype Ltd.</span> 
+                <router-link to="/privacy">Privacy Policy↗</router-link>
+                </div>
                 <div class="social">
                     <a href="https://www.facebook.com/spacetype/" target="_blank">
                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024" xml:space="preserve" class="secondary-fill">
@@ -268,4 +270,169 @@ export default {
 };
 </script>
 <style>
+footer {
+    background-color: var(--c-g-5);
+    color: var(--c-secondary);
+    padding: 6.6666666667vw 4.5833333333vw 0 4.5833333333vw;
+    border: 0.0520833333vw solid var(--c-g-4);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    footer {
+        padding: 6.25vw 4.1666666667vw 0 4.1666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    footer {
+        padding: 8.5333333333vw 6.4vw 0 6.4vw;
+    }
+}
+
+.f-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f-top a {
+    transition: 0.4s;
+}
+
+.f-top a svg {
+    transition: 0.4s;
+    height: auto;
+}
+
+.f-top a:hover {
+    transition: 0.4s;
+}
+
+.f-top a:hover svg {
+    transition: 0.4s;
+    fill: var(--c-g-2);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .f-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5.2083333333vw;
+    }
+    .f-top .social {
+        margin-left: 4.1666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .f-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8.5333333333vw;
+    }
+    .f-top .social {
+        margin-left: 8.5333333333vw;
+    }
+    .f-top .social a {
+        margin-right: 8.5333333333vw;
+    }
+}
+
+.f-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .f-left {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4.1666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .f-left {
+        margin-bottom: 8.5333333333vw;
+    }
+}
+
+.f-inf {
+    margin-right: 1.6666666667vw;
+}
+
+.f-inf a {
+    color: var(--c-secondary);
+    margin-left: 1.6666666667vw;
+    transition: 0.4s;
+}
+
+.f-inf a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .f-inf {
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-bottom: 4.1666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .f-inf {
+        margin-left: 0;
+        margin-bottom: 8.5333333333vw;
+    }
+}
+
+.f-right a {
+    color: var(--c-secondary);
+    transition: 0.4s;
+}
+
+.f-right a:hover {
+    text-decoration: none;
+}
+
+.f-img {
+    width: 99.8958333333vw;
+    height: auto;
+    margin-top: 3.3333333333vw;
+    margin-bottom: -0.3645833333vw;
+    margin-left: -4.5833333333vw;
+    fill: var(--c-g-4);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .f-img {
+        width: 99.7395833333vw;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: -0.4166666667vw;
+        margin-left: -4.2666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .f-img {
+        width: 99.4666666667vw;
+        margin-left: -6.4vw;
+        margin-bottom: -2.1333333333vw;
+    }
+}
 </style>

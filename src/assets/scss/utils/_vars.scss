@@ -1,0 +1,34 @@
+@charset "UTF-8";
+:root {
+    --c-orange: #ff3b4e;
+    --c-black: #000000;
+    --c-white: #ffffff;
+    --c-darkgray: #333333;
+    --c-primary: #ffffff;
+    --c-secondary: #000000;
+    --c-g-1: #2f2f30;
+    --c-g-2: #808080;
+    --c-g-3: #b5b5b5;
+    --c-g-4: #cccccc;
+    --c-g-5: #e5e6e7;
+    --c-g-6: #eeeeee;
+    --c-g-7: #333333;
+    --c-g-8: #B5B5B5;
+}
+
+[data-theme=dark] {
+    --c-orange: #ff3b4e;
+    --c-black: #000000;
+    --c-white: #ffffff;
+    --c-darkgray: #333333;
+    --c-primary: #000000;
+    --c-secondary: #ffffff;
+    --c-g-1: #2f2f30;
+    --c-g-2: #808080;
+    --c-g-3: #333333;
+    --c-g-4: #282828;
+    --c-g-5: #0D0D0D;
+    --c-g-6: #161616;
+    --c-g-7: #cccccc;
+    --c-g-8: #333333;
+}

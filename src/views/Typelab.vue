@@ -28,7 +28,7 @@ import SpaceBoxFive from "./components/SpaceBoxFive";
 import Subscribe from "./components/Subscribe";
 import SpaceBoxSix from "./components/SpaceBoxSix";
 export default {
-  name: "components",
+  name: "Typelab",
   components: {
     Heros,
     SpaceBoxOne,
@@ -42,7 +42,6 @@ export default {
     SpaceBoxFive,
     Subscribe,
     SpaceBoxSix,
-
   }
 };
 </script>

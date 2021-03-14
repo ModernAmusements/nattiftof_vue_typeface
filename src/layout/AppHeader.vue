@@ -34,6 +34,8 @@ export default {
 };
 </script>
 <style>
+
+
 nav {
   position: fixed;
   top: 0;
@@ -150,7 +152,7 @@ nav {
 
 @media (max-width: 1024px), (hover: none) {
   .nav-buy {
-    margin-left: -57.6vw;
+    margin-left: -73.6vw
   }
 }
 

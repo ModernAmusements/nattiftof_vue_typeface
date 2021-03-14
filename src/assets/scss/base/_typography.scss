@@ -1,0 +1,375 @@
+.h1 {
+    font: 2.5vw "GaretVariable";
+    line-height: 3.4375vw;
+}
+
+@media (max-width: 1366px) {
+    .h1 {
+        font-size: 2.9166666667vw;
+        line-height: 3.9583333333vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h1 {
+        font-size: 6.25vw;
+        line-height: 8.59375vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h1 {
+        font-size: 8.5333333333vw;
+        line-height: 11.7333333333vw;
+    }
+}
+
+.h2 {
+    font: 1.25vw "GaretVariable";
+    line-height: 1.71875vw;
+}
+
+@media (max-width: 1366px) {
+    .h2 {
+        font-size: 1.4583333333vw;
+        line-height: 1.9791666667vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h2 {
+        font-size: 3.125vw;
+        line-height: 4.296875vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h2 {
+        font-size: 5.3333333333vw;
+        line-height: 7.4666666667vw;
+    }
+}
+
+.h2b {
+    font: 1.4583333333vw "GaretVariable";
+    line-height: 1.9791666667vw;
+}
+
+.h2o {
+    font: 1.25vw "GaretVariable";
+    line-height: 1.6666666667vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h2o {
+        font-size: 3.125vw;
+        line-height: 4.296875vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h2o {
+        font-size: 5.3333333333vw;
+        line-height: 7.36vw;
+    }
+}
+
+.h3 {
+    font: 0.8333333333vw "GaretVariable";
+    line-height: 1.6666666667vw;
+}
+
+@media (max-width: 1366px) {
+    .h3 {
+        font-size: 1.0416666667vw;
+        line-height: 1.4583333333vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h3 {
+        font-size: 4.2666666667vw;
+        line-height: 6.56vw;
+    }
+}
+
+.h4 {
+    font: 0.8333333333vw "GaretVariable";
+    line-height: 1.30625vw;
+}
+
+@media (max-width: 1366px) {
+    .h4 {
+        font-size: 0.9375vw;
+        line-height: 1.3020833333vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h4 {
+        font-size: 2.0833333333vw;
+        line-height: 2.8645833333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h4 {
+        font-size: 3.7333333333vw;
+        line-height: 5.8666666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .remove-on-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .remove-on-mobile {
+        display: none;
+    }
+}
+
+.h4t {
+    font: 0.8333333333vw "GaretVariable";
+    line-height: 1.4583333333vw;
+}
+
+@media (max-width: 1366px) {
+    .h4t {
+        font-size: 0.9375vw;
+        line-height: 1.5625vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h4t {
+        font-size: 2.0833333333vw;
+        line-height: 3.6458333333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h4t {
+        font-size: 3.7333333333vw;
+        line-height: 6.9333333333vw;
+    }
+}
+
+.h5 {
+    font: 1.0416666667vw "GaretVariable";
+    line-height: 1.4583333333vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h5 {
+        font-size: 2.6041666667vw;
+        line-height: 2.1484375vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h5 {
+        font-size: 3.2vw;
+        line-height: 4.4vw;
+    }
+}
+
+.h6 {
+    font: 0.8333333333vw "GaretVariable";
+    line-height: 1.1458333333vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h6 {
+        font-size: 2.0833333333vw;
+        line-height: 2.8645833333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h6 {
+        font-size: 3.2vw;
+        line-height: 4.4vw;
+    }
+}
+
+.h7 {
+    font: 0.8333333333vw "GaretVariable";
+    line-height: 1.1458333333vw;
+}
+
+@media (max-width: 1366px) {
+    .h7 {
+        font-size: 0.9375vw;
+        line-height: 1.3020833333vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h7 {
+        font-size: 2.0833333333vw;
+        line-height: 2.8645833333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h7 {
+        font-size: 3.7333333333vw;
+        line-height: 5.8666666667vw;
+    }
+}
+
+.h8 {
+    font: 0.7291666667vw "GaretVariable";
+    line-height: 1.1458333333vw;
+}
+
+@media (max-width: 1366px) {
+    .h8 {
+        font-size: 0.8333333333vw;
+        line-height: 1.1458333333vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h8 {
+        font-size: 1.8229166667vw;
+        line-height: 2.8645833333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h8 {
+        font-size: 3.7333333333vw;
+        line-height: 5.8666666667vw;
+    }
+}
+
+.h9 {
+    font: 0.625vw "GaretVariable";
+    line-height: 0.8625vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .h9 {
+        font-size: 1.0416666667vw;
+        line-height: 1.4322916667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .h9 {
+        font-size: 2.1333333333vw;
+        line-height: 2.9333333333vw;
+    }
+}
+
+.v-size {
+    font: 25vw "GaretVariable";
+    line-height: 34.4791666667vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .v-size {
+        font-size: 25vw;
+        line-height: 34.5052083333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .v-size {
+        font-size: 25.6vw;
+        line-height: 35.2vw;
+    }
+}
+
+.ss-size {
+    font: 6.25vw "GaretVariable";
+    line-height: 8.6458333333vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .ss-size {
+        font-size: 10.6666666667vw;
+        line-height: 14.9333333333vw;
+    }
+}
+
+.sm-size {
+    font: 9.375vw "GaretVariable";
+    line-height: 12.9166666667vw;
+}
+
+.sx-size {
+    font: 10.4166666667vw "GaretVariable";
+    line-height: 14.375vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .sx-size {
+        font-size: 14.6666666667vw;
+        line-height: 18.6666666667vw;
+    }
+}
+
+.wvar {
+    font: sans-serif, "GaretVariable";
+}
+
+#navh {
+    font-variation-settings: "wght" 950;
+}
+
+#navn {
+    font-variation-settings: "wght" 474;
+}
+
+.w50 {
+    font-variation-settings: "wght" 50;
+}
+
+.w400 {
+    font-variation-settings: "wght" 356;
+}
+
+.w400i {
+    font-variation-settings: "wght" 356;
+    font-style: italic;
+}
+
+.w700 {
+    font-variation-settings: "wght" 554;
+}
+
+.w900 {
+    font-variation-settings: "wght" 860;
+}
+
+.w500 {
+    font-variation-settings: "wght" 474;
+}
+
+.w300 {
+    font-variation-settings: "wght" 243;
+}
+
+.w600 {
+    font-variation-settings: "wght" 600;
+}

@@ -592,14 +592,14 @@ window.addEventListener("load", function() {
         marginLeft: "-13.5vw",
         duration: .2
     }), Lt.to("#navb", {
-        marginLeft: "2.5vw",
+        marginLeft: "3.5vw",
         duration: .3
     }), Lt.pause();
     let Wt = gsap.timeline({
         repeat: 0
     });
     Wt.to("#navn", {
-        marginLeft: "-30.7333333333vw",
+        marginLeft: "-46.7333vw",
         duration: .3
     }), Wt.to("#navb", {
         marginLeft: "17vw",
@@ -609,7 +609,7 @@ window.addEventListener("load", function() {
         repeat: 0
     });
     Ct.to("#navn", {
-        marginLeft: "-30.7333333333vw",
+        marginLeft: "-46.7333vw",
         duration: .3
     }), Ct.to("#navb", {
         marginLeft: "6.4vw",

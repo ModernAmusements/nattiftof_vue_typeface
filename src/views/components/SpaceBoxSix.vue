@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: 'InfoTwo'
+  name: 'SpaceBoxSix'
 };
 </script>
 <style>

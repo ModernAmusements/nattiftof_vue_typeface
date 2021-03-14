@@ -47,7 +47,7 @@
 </template>
 <script>
 export default {
-  name: 'InfoOne'
+  name: 'Subscribe'
 };
 </script>
 <style>

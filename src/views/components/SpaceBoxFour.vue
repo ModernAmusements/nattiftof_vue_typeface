@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'Programm'
+  name: 'SpaceBoxFour'
 };
 </script>
 <style>

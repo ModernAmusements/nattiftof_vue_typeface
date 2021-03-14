@@ -178,7 +178,7 @@
 </template>
 <script>
 export default {
-  name: 'Absolventen'
+  name: 'Editor'
 };
 </script>
 <style>

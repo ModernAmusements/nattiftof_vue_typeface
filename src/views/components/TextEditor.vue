@@ -182,7 +182,7 @@
 </template>
 <script>
 export default {
-  name: 'Finissage'
+  name: 'TextEditor'
 };
 </script>
 <style>

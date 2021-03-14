@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="img-magnifier-container d-only unsl" id='glyphintd' oncontextmenu="return false;">
-            <img id="glyphimage" src="assets/img/glyph-map-light-min.svg" class='light-sticker glyph-map-di' alt="Glypmap image">
+             <img id="glyphimage" src="assets/img/glyph-map-light-min.svg" class='light-sticker glyph-map-di' alt="Glypmap image">
             <img id="glyphimage2" src="assets/img/glyph-map-dark-min.svg" class='dark-sticker glyph-map-di' alt="Glypmap image">
             <div class="img-magnifier-glass light-sticker" id='imagg'>
                 <div class="mag-hol" id='maghol'>
@@ -72,7 +72,7 @@
 </template>
 <script>
 export default {
-  name: 'app-footer'
+  name: 'Alphabet'
 };
 </script>
 <style>

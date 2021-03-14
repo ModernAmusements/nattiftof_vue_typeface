@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: 'Master-Close'
+  name: 'SpaceBoxFive'
 };
 </script>
 <style>

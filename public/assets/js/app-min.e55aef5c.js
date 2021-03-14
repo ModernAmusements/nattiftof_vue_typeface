@@ -589,7 +589,7 @@ window.addEventListener("load", function() {
             repeat: 0
         });
     Lt.to("#navn", {
-        marginLeft: "-8.5vw",
+        marginLeft: "-13.5vw",
         duration: .2
     }), Lt.to("#navb", {
         marginLeft: "2.5vw",

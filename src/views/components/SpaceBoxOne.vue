@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-  name: 'WArchitektur'
+  name: 'SpaceBoxOne'
 };
 </script>
 <style>

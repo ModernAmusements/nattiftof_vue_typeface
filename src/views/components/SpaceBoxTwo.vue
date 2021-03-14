@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-  name: 'Aftershowparty'
+  name: 'SpaceBoxTwo'
 };
 </script>
 <style>

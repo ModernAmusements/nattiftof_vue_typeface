@@ -926,7 +926,7 @@ input::selection {
     font-variation-settings: "wght" 600;
 }
 
-nav {
+/* nav {
     position: fixed;
     top: 0;
     display: flex;
@@ -1038,7 +1038,7 @@ nav {
     color: var(--c-secondary);
     background-color: var(--c-primary);
     margin-right: 1.6666666667vw;
-    margin-left: -16.0416666667vw;
+    margin-left: -19.0416666667vw;
     z-index: 21;
 }
 
@@ -1099,7 +1099,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--c-primary);
-}
+} */
 
 /* .hero {
     position: relative;

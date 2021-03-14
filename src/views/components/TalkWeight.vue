@@ -22,7 +22,7 @@
 </template>
 <script>
 export default {
-  name: 'PeterBehrens'
+  name: 'TalkWeight'
 };
 </script>
 <style>

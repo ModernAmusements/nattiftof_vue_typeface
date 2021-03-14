@@ -1,5 +1,5 @@
 <template>
-            <div class="spacing-body">
+        <div class="spacing-body">
         <div class="space-box-5 d-only"></div>
         <div class="space-box-51 d-only"></div>
         <div class="space-box-6"></div>
@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: 'Designpreis'
+  name: 'SpaceBoxThree'
 };
 </script>
 <style>

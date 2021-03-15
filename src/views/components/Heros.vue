@@ -154,7 +154,7 @@
       <div class="hero-button-right h7 w500 d-only" id="downtrig">Free download</div>
       <div class="hero-cta-r-text d-only">
         <div class="h2 w700">Two free weights</div>
-        <div class="h7 w400">Get Garet Book & Garet Heavy fonts for free.</div>
+        <div class="h7 w400">Get Nattiftof Book & Nattiftof Heavy fonts for free.</div>
       </div>
     </div>
   </header>

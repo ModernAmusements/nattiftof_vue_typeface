@@ -5,7 +5,7 @@
                 <h1 class="h1 w500">
                     <span class='styl-sa'>Mess with the g</span>
                 </h1>
-                <h4 class="h4 w400">Garet has an alternative “g”. So you can mess with it.
+                <h4 class="h4 w400">Nattiftof has an alternative “g”. So you can mess with it.
                     
                 <br>
                 </h4>

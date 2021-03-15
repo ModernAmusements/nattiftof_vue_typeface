@@ -1,27 +1,27 @@
 <template>
   <section class="privacy-body">
     <div class="privacy-header privacy-a">
-      <a href="/" class="h2"><span id="navh"></span><span id="navn">spacetype</span></a>
+      <a href="/" class="h2"><span id="navh"></span><span id="navn">TypelabFoundry</span></a>
       <div class="h4t w400">
         <span class="hide-m">Contact us at</span>
-        <span class="w700">contact@spacetype.co</span>
+        <span class="w700">contact@TypelabFoundry.co</span>
       </div>
     </div>
     <div class="h1 w400 center-t privacy-h1">Privacy Policy</div>
     <div class="h4t w400 privacy-g">
       We are very delighted that you have shown interest in us and our website. At
-      Spacetype Ltd., we respect and value your privacy. With this document, we want to
+      TypelabFoundry Ltd., we respect and value your privacy. With this document, we want to
       inform you of the nature, scope, and purpose of the personal data we collect, use,
       and process.
     </div>
     <div class="h1 w400 privacy-h1">What sort of information do we collect?</div>
     <div class="h4t w700 privacy-h1">Automatic collection of information</div>
     <div class="h4t w400 privacy-p">
-      When you visit http://www.spacetype.co, our servers automatically record information
+      When you visit http://www.TypelabFoundry.co, our servers automatically record information
       that your browser sends. This data may include information such as your device's IP
       address, browser type and version, operating system type and version, language
       preferences or the webpage you were visiting before you came to
-      http://www.spacetype.co, access times and dates, and other statistics. Information
+      http://www.TypelabFoundry.co, access times and dates, and other statistics. Information
       collected is automatically used only to identify potential cases of abuse and
       establish statistical information regarding the usage and traffic of our website.
     </div>
@@ -46,7 +46,7 @@
     </div>
     <div class="h1 w400 privacy-h1">Cookie policy</div>
     <div class="h4t w700 privacy-h1">
-      What are cookies and how does Spacetype Ltd. use them?
+      What are cookies and how does TypelabFoundry Ltd. use them?
     </div>
     <div class="h4t w400 privacy-p">
       Cookies are very small text files that are automatically created by the browser and
@@ -61,9 +61,9 @@
       related to the use of the website.
     </div>
     <div class="h4t w400 privacy-p">
-      When using http:/www.spacetype.co, sometimes you may also be exposed to cookies
+      When using http:/www.TypelabFoundry.co, sometimes you may also be exposed to cookies
       provided by third parties, such as Facebook, Instagram, Twitter, Google, and other
-      third-party service providers with whom you can use the website. Spacetype can not
+      third-party service providers with whom you can use the website. TypelabFoundry can not
       be responsible for how these third-party providers use cookies, and you should check
       the privacy policies of these providers for more information about how they use
       cookies.
@@ -88,7 +88,7 @@
     </div>
     <div class="h4t w700 privacy-h1">First-party cookies</div>
     <div class="h4t w400 privacy-p">
-      Cookies set by the website owner or service provider (Spacetype Ltd.) are called
+      Cookies set by the website owner or service provider (TypelabFoundry Ltd.) are called
       “first party cookies” and they can only be read by that site. Cookies set by parties
       other than the website owner are called “third party cookies”.
     </div>
@@ -176,14 +176,14 @@
     </div>
     <div class="h1 w400 privacy-h1">Privacy Policy modification</div>
     <div class="h4t w400 privacy-p">
-      We at Spacetype ltd. reserve the right to modify this policy to adapt it to
+      We at TypelabFoundry ltd. reserve the right to modify this policy to adapt it to
       legislative changes or jurisprudence that may arise in the future.
     </div>
     <div class="h1 w400 privacy-k privacy-h1">Contact information</div>
-    <div class="h4t w700 privacy-h1">Spacetype Ltd.</div>
+    <div class="h4t w700 privacy-h1">TypelabFoundry Ltd.</div>
     <div class="h4t w400 privacy-h1"><span class="w700">CEO:</span> Mirela Belova</div>
     <div class="h4t w400 privacy-h1">
-      <span class="w700">E-mail:</span> contact@spacetype.co
+      <span class="w700">E-mail:</span> contact@TypelabFoundry.co
     </div>
     <!-- <div class="h4t w400 privacy-h1">
         <span class="w700">Address:</span> jk. Hr. Smirnenski bl. 27A vh. V,

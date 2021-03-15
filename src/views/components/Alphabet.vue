@@ -3,8 +3,8 @@
         <div class="glyph-map-holder">
             <div class="glyph-map-text">
                 <h1 class="w500 h1">The alphabet</h1>
-                <h4 class="w400 h4 d-only">Use the 3-step magnifier to examine in detail Garet’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
-                <h4 class="w400 h4 m-only">Examine Garet’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
+                <h4 class="w400 h4 d-only">Use the 3-step magnifier to examine in detail Nattiftof’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
+                <h4 class="w400 h4 m-only">Examine Nattiftof’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
                 <div class="legend-cont-abs d-only unsl">
                     <div class="legend-elem">
                         <div class="legend-elem-left">

@@ -13,7 +13,8 @@
       <div class="h4 w400 d-only" id="downtrig1">Download free fonts</div>
     </div>
     <div class="nav-part h4 w400">
-      <a href="about" class="nav-ab">About <span class="d-only">Typelab foundry</span></a>
+      <router-link class="nav-ab" to="/">Home</router-link>
+      <router-link class="nav-ab" to="/about">About <span class="d-only">Typelab foundry</span></router-link>
       <div class="nav-sub" id="subsb">
         <svg version="1.1" viewBox="0 0 64 47.9" xml:space="preserve">
           <path

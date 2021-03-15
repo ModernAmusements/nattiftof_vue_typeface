@@ -1,10 +1,10 @@
 <template>
        <section class="text-editor" id='txt-top'>
         <div class="text-editor-content">
-            <h1 class="h1 w500">Experience Garet</h1>
+            <h1 class="h1 w500">Experience Nattiftof</h1>
             <h4 class="h4 w400">All 22 upright and italic fonts are compactly packed in one variable font.<br/>It comes with many OpenType features for advanced typographic layout.</h4>
-            <h4 class="d-only h4 w400">Garet has lots to offer so hover over a word and use the guide to change its style.</h4>
-            <h4 class="m-only h4 w400">Discover what Garet has to offer by selecting a word to change it’s style</h4>
+            <h4 class="d-only h4 w400">Nattiftof has lots to offer so hover over a word and use the guide to change its style.</h4>
+            <h4 class="m-only h4 w400">Discover what Nattiftof has to offer by selecting a word to change it’s style</h4>
             <h6 class="m-only h4 w400">Setting a new text will reset all styling</h6>
             <div class="legend-cont-abs unsl d-only">
                 <div class="legend-elem">
@@ -157,7 +157,7 @@
                         <div class="w700 h6">Weight</div>
                         <div class="w400 h6" id='msliderv2'>50</div>
                         <div class="text-controler-weight-add w400 h6" id='te-wght-name'>
-                            Garet Hairline
+                            Nattiftof Hairline
                         </div>
                     </div>
                     <input type="range" id="mslider2" class="text-mobile-slider" min="50" max="950" value='50'>

@@ -5,7 +5,7 @@ import AppFooter from "./layout/AppFooter";
 import Typelab from "./views/Typelab.vue";
 
 import Landing from "./views/Landing.vue";
-import about from "./views/about.vue";
+import About from "./views/About.vue";
 import Privacy from "./views/Privacy.vue";
 import Profile from "./views/Profile.vue";
 
@@ -33,10 +33,10 @@ export default new Router({
     },
     {
       path: "/about",
-      name: "about",
+      name: "About",
       components: {
         header: AppHeader,
-        default: about,
+        default: About,
         footer: AppFooter
       }
     },

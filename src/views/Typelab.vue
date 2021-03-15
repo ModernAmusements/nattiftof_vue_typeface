@@ -47,7 +47,7 @@ export default {
     Cookies
   },
   mounted() {
-    window.addEventListener("load", function() {
+  
     const t = /[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.([A-Za-z]{2,15})$/,
         e = {
             NoConsent: "error-no-consent",
@@ -1177,7 +1177,7 @@ export default {
     }
     var Le, We;
     Le = Be("theme"), "" != (We = Be("cookieson")) ? (r = Le, xe(), We || Ee()) : (r = 0, Ie("theme", 0, 2), Ie("cookieson", 0, 2), Ee())
-});
+
   },
 };
 

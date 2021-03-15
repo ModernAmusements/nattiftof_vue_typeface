@@ -10,7 +10,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'HSD',
+    name: 'Typelab',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',

@@ -1,13 +1,15 @@
 import Vue from "vue";
 import Router from "vue-router";
+
+
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Typelab from "./views/Typelab.vue";
 
-import Landing from "./views/Landing.vue";
+
+import Typelab from "./views/Typelab.vue";
 import About from "./views/About.vue";
 import Privacy from "./views/Privacy.vue";
-import Profile from "./views/Profile.vue";
+
 
 Vue.use(Router);
 
@@ -20,14 +22,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Typelab,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/landing",
-      name: "landing",
-      components: {
-        default: Landing,
         footer: AppFooter
       }
     },
@@ -49,15 +43,6 @@ export default new Router({
         footer: AppFooter
       }
     },
-    {
-      path: "/profile",
-      name: "profile",
-      components: {
-        header: AppHeader,
-        default: Profile,
-        footer: AppFooter
-      }
-    }
   ],
   scrollBehavior: to => {
     if (to.hash) {

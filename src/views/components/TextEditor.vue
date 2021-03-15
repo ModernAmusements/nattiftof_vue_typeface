@@ -1,11 +1,11 @@
 <template>
        <section class="text-editor" id='txt-top'>
         <div class="text-editor-content">
-            <h1 class="h1 w500">Experience Nattiftof</h1>
-            <h4 class="h4 w400">All 22 upright and italic fonts are compactly packed in one variable font.<br/>It comes with many OpenType features for advanced typographic layout.</h4>
-            <h4 class="d-only h4 w400">Nattiftof has lots to offer so hover over a word and use the guide to change its style.</h4>
-            <h4 class="m-only h4 w400">Discover what Nattiftof has to offer by selecting a word to change it’s style</h4>
-            <h6 class="m-only h4 w400">Setting a new text will reset all styling</h6>
+            <h1 class="h1 w500">Erleben Sie Nattiftof</h1>
+            <h4 class="h4 w400">Alle 22 aufrechten und kursiven Schriften sind kompakt in einer variablen Schrift verpackt.<br/>Sie kommt mit vielen OpenType-Funktionen für fortgeschrittene typografische Gestaltung.</h4>
+            <h4 class="d-only h4 w400">Nattiftof hat viel zu bieten, also fahren Sie mit dem Mauszeiger über ein Wort und verwenden Sie die Anleitung, um den Stil zu ändern.</h4>
+            <h4 class="m-only h4 w400">Entdecken Sie, was Nattiftof zu bieten hat, indem Sie ein Wort auswählen, um seinen Stil zu ändern</h4>
+            <h6 class="m-only h4 w400">Das Setzen eines neuen Textes setzt alle Formatierungen zurück</h6>
             <div class="legend-cont-abs unsl d-only">
                 <div class="legend-elem">
                     <div class="legend-elem-left">
@@ -18,8 +18,8 @@
                      </svg>
                     </div>
                     <div class="legend-elem-right">
-                        <div class="h6 w700">Scroll</div>
-                        <div class="h6 w400">Font Size</div>
+                        <div class="h6 w700">Scrollen</div>
+                        <div class="h6 w400">Schriftgröße</div>
                     </div>
                 </div>
                 <div class="legend-elem">
@@ -33,8 +33,8 @@
                      </svg>
                     </div>
                     <div class="legend-elem-right">
-                        <div class="h6 w700">Hold Left</div>
-                        <div class="h6 w400">Font Weight</div>
+                        <div class="h6 w700">Links klicken</div>
+                        <div class="h6 w400">Schriftschnitt</div>
                     </div>
                 </div>
                 <div class="legend-elem">
@@ -48,8 +48,8 @@
                      </svg>
                     </div>
                     <div class="legend-elem-right">
-                        <div class="h6 w700">Hold Right</div>
-                        <div class="h6 w400">Italic Angle</div>
+                        <div class="h6 w700">Rechts halten</div>
+                        <div class="h6 w400">Kursiv</div>
                     </div>
                 </div>
                 <div class="legend-elem mt-8">
@@ -64,8 +64,8 @@
                      </svg>
                     </div>
                     <div class="legend-elem-right">
-                        <div class="h6 w700">Spacebar</div>
-                        <div class="h6 w400">Letter-spacing</div>
+                        <div class="h6 w700">Leerzeichen</div>
+                        <div class="h6 w400">Buchstaben-Abstand</div>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
         <div class="text-editor-controler">
             <div class="side-space borr d-only">
             </div>
-            <div class="set-text-button w500 h7 d-only" id='reset-button-1'>Reset</div>
+            <div class="set-text-button w500 h7 d-only" id='reset-button-1'>Zurücksetzen</div>
             <div class="change-color-button-a d-only" id="otftoggle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 62.31" class='invert-color-icon'>
                   <path d="M32.036,0L32.036,0C32.024,0,32.012,0,32,0s-0.024,0-0.036,0v0C12.783,0.035,0,13.717,0,31.155s12.783,31.12,31.964,31.155
@@ -87,13 +87,13 @@
             <form id="reset-text-f" onsubmit="return false">
                 <input class="text-input h3 w400" autocomplete="off" type="text" maxlength="420" id="reset-text" placeholder="Type here...">
             </form>
-            <div class="set-text-button w500 h7 m-only" id='reset-button-2'>Reset</div>
+            <div class="set-text-button w500 h7 m-only" id='reset-button-2'>Zurücksetzen</div>
             <div class="change-color-button" id="theme-button">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 71.1" xml:space="preserve" class='invert-color-icon'>
                   <path d="M27.4,62.5V8.6C11.2,8.6,0,20.6,0,35.6C0,50.5,11.2,62.5,27.4,62.5z M27.4,71.1c22,0,36.6-15.7,36.6-35.6C64,15.6,49.4,0,27.4,0v8.6c16.2,0,27.4,12,27.4,27c0,14.9-11.2,27-27.4,27V71.1z"/>
                </svg>
             </div>
-            <div class="set-text-button w500 h6" id='set-button'>Set</div>
+            <div class="set-text-button w500 h6" id='set-button'>Anwenden</div>
             <div class="side-space borl d-only"></div>
         </div>
         <div class="">
@@ -108,7 +108,7 @@
                         </g>
                      </svg>
                         <div class="scroll-here-text">
-                            Scroll here
+                            Hier scrollen
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="unsl">
-                    <div class="text-editor-paragraph" id="int-txt" oncontextmenu="return false;">Barcelona 14 km! ЦИФРА type shape ☞ stormy night 17% out of 420 {MOTOR} figure ❺ översättare A zászlóshajó ⚐ Volleyballplatz → ретро музыка Декоративный? 30 Май 1672 год ROOM 1a върволица oт @ 3/4 pts.</div>
+                    <div class="text-editor-paragraph" id="int-txt" oncontextmenu="return false;">Berlin 14 km! ЦИФРА type shape ☞ stormy night 17% out of 420 {MOTOR} figure ❺ översättare A zászlóshajó ⚐ Volleyballplatz → ретро музыка Декоративный? 30 Май 1672 год ROOM 1a върволица oт @ 3/4 pts.</div>
                 </div>
                 <div class="text-editor-panel d-only"> </div>
                 <div class="text-editor-side d-only">
@@ -146,7 +146,7 @@
                         </g>
                      </svg>
                         <div class="scroll-here-text">
-                            Scroll here
+                            Hier scrollen
                         </div>
                     </div>
                 </div>
@@ -164,14 +164,14 @@
                 </div>
                 <div class="text-controler-component">
                     <div class="text-controler-component-info">
-                        <div class="w700 h6">Italic</div>
+                        <div class="w700 h6">Kursiv</div>
                         <div class="w400 h6" id='msliderv3'>0</div>
                     </div>
                     <input type="range" id="mslider3" class="text-mobile-slider" min="0" max="100" value='0'>
                 </div>
                 <div class="text-controler-component">
                     <div class="text-controler-component-info">
-                        <div class="w700 h6">Size</div>
+                        <div class="w700 h6">Größe</div>
                         <div class="w400 h6" id='msliderv1'>0px</div>
                     </div>
                     <input type="range" id="mslider1" class="text-mobile-slider" min="20" max="100" value='30'>

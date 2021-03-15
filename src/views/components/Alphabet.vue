@@ -2,9 +2,9 @@
        <section class="glyph-map">
         <div class="glyph-map-holder">
             <div class="glyph-map-text">
-                <h1 class="w500 h1">The alphabet</h1>
-                <h4 class="w400 h4 d-only">Use the 3-step magnifier to examine in detail Nattiftof’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
-                <h4 class="w400 h4 m-only">Examine Nattiftof’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.</h4>
+                <h1 class="w500 h1">Das Alphabet</h1>
+                <h4 class="w400 h4 d-only">Verwenden Sie die 3-stufige Lupe, um den erweiterten lateinischen A-Z-Fall von Nattiftof im Detail zu untersuchen. Uprights, 133 von 947 Glyphen.</h4>
+                <h4 class="w400 h4 m-only">Untersuchen Sie das erweiterte lateinische A-Z-Gehäuse von Nattiftof, 133 von 947 Glyphen</h4>
                 <div class="legend-cont-abs d-only unsl">
                     <div class="legend-elem">
                         <div class="legend-elem-left">
@@ -17,8 +17,8 @@
                         </svg>
                         </div>
                         <div class="legend-elem-right">
-                            <div class="h6 w700">Left Click</div>
-                            <div class="h6 w400">Zoom In</div>
+                            <div class="h6 w700">Links Klick</div>
+                            <div class="h6 w400">vergrößern</div>
                         </div>
                     </div>
                     <div class="legend-elem">
@@ -32,8 +32,8 @@
                         </svg>
                         </div>
                         <div class="legend-elem-right">
-                            <div class="h6 w700">Right Click</div>
-                            <div class="h6 w400">Zoom Out</div>
+                            <div class="h6 w700">Rechts Klick</div>
+                            <div class="h6 w400">verkleinern</div>
                         </div>
                     </div>
                 </div>

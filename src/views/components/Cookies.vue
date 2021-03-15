@@ -23,9 +23,9 @@
           <circle cx="59.3" cy="53.2" r="4.7" />
         </svg>
         <span>
-          We use cookies to ensure you get the best experience on our website.
-          Find out more
-          <a class="w700" href="privacy-policy" target="_blank">here↗</a>.</span
+          Wir verwenden Cookies, um Ihnen das beste Erlebnis auf unserer Website zu bieten.
+          Finden Sie mehr heraus
+          <a class="w700" href="privacy-policy" target="_blank">hier↗</a>.</span
         >
       </div>
       <div class="cookies-button h8 w400" id="cookietrig">Okay</div>

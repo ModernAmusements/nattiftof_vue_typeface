@@ -2,9 +2,9 @@
     <section class="voice-section">
         <div class="voice-section-holder" id='voicesection'>
             <div class="voice-section-text">
-                <h1 class="h1 w500">Sound=weight</h1>
-                <h4 class="h4 w400">Start interacting by allowing the use of your microphone. This section reacts to noise.</h4>
-                <div class="h4 w400 mt64 orangec">We are not recording or storing any data.</div>
+                <h1 class="h1 w500">Ton=Schriftstärke</h1>
+                <h4 class="h4 w400">Beginnen Sie die Interaktion, indem Sie die Verwendung Ihres Mikrofons erlauben. Dieser Bereich reagiert auf Geräusche.</h4>
+                <div class="h4 w400 mt64 orangec">Es werden keine Daten aufgezeichnet oder gespeichert.</div>
             </div>
             <div class="voice-section-button" id="voice-button">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 43.5 64" class='voice-button-icon' xml:space="preserve">

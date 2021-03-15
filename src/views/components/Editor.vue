@@ -1,119 +1,192 @@
 <template>
-<section class="section-editor">
-        <div class="editor-content-holder">
-            <div class="editor-main-content">
-                <h1 class="h1 w500">
-                    <span class='styl-sa'>Mess with the g</span>
-                </h1>
-                <h4 class="h4 w400">Nattiftof has an alternative “g”. So you can mess with it.
-                    
-                <br>
-                </h4>
-                <h4 class="h4 remove-on-mobile w400">Alter the shape by moving the control points and their handles. Select any point to begin.</h4>
-                <div class="d-only m-only" id="canvas-container"></div>
-                <div class="d-only legend-cont-rel unsl">
-                    <div class="legend-elem">
-                        <div class="legend-elem-left">
-                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 56 32" xml:space="preserve" class="legend-elem-img-k">
-                           <path  d="M0,0v32h56V0H0z M34.601,2.5h8.2v7.333h-8.2V2.5z M42.801,19.667h-8.2v-7.334h8.2V19.667z
+  <section class="section-editor">
+    <div class="editor-content-holder">
+      <div class="editor-main-content">
+        <h1 class="h1 w500">
+          <span class="styl-sa">Spiel mit dem g</span>
+        </h1>
+        <h4 class="h4 w400">
+          Nattiftof hat ein alternatives "g". Sie können also damit herumspielen
+
+          <br />
+        </h4>
+        <h4 class="h4 remove-on-mobile w400">
+          Ändern Sie die Form, indem Sie die Steuerpunkte und ihre Griffe verschieben.
+          Wählen Sie einen beliebigen Punkt aus, um zu beginnen.
+        </h4>
+        <div class="d-only m-only" id="canvas-container"></div>
+        <div class="d-only legend-cont-rel unsl">
+          <div class="legend-elem">
+            <div class="legend-elem-left">
+              <svg
+                version="1.1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 56 32"
+                xml:space="preserve"
+                class="legend-elem-img-k"
+              >
+                <path
+                  d="M0,0v32h56V0H0z M34.601,2.5h8.2v7.333h-8.2V2.5z M42.801,19.667h-8.2v-7.334h8.2V19.667z
                               M23.9,12.333h8.2v7.334h-8.2V12.333z M23.9,2.5h8.2v7.333h-8.2V2.5z M13.2,2.5h8.2v7.333h-8.2V2.5z M2.5,2.5h8.2v7.333H2.5V2.5z
                               M2.5,12.333h8.2v7.334H2.5V12.333z M42.801,29.5H13.2v-7.333h8.2h2.5h8.2h2.5h8.2V29.5z M53.5,29.5h-8.199v-7.333H53.5V29.5z
-                              M53.5,19.667h-8.199v-7.334H53.5V19.667z M45.301,9.833V2.5H53.5v7.333H45.301z"/>
-                        </svg>
-                        </div>
-                        <div class="legend-elem-right">
-                            <div id="undo-hint" class="h6 w700">Ctrl+Z</div>
-                            <div class="h6 w400">Undo</div>
-                        </div>
-                    </div>
-                    <div class="legend-elem">
-                        <div class="legend-elem-left">
-                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 56 32" xml:space="preserve" class="legend-elem-img-k">
-                           <path d="M45.301,0h-2.5h-8.2h-2.5h-8.2h-2.5h-8.2h-2.5H0v9.833v2.5v7.333v2.5V32h10.7h2.5h29.601h2.5H56v-9.833v-2.5v-7.333v-2.5V0
+                              M53.5,19.667h-8.199v-7.334H53.5V19.667z M45.301,9.833V2.5H53.5v7.333H45.301z"
+                />
+              </svg>
+            </div>
+            <div class="legend-elem-right">
+              <div id="undo-hint" class="h6 w700">Ctrl+Z</div>
+              <div class="h6 w400">Rückgängig</div>
+            </div>
+          </div>
+          <div class="legend-elem">
+            <div class="legend-elem-left">
+              <svg
+                version="1.1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 56 32"
+                xml:space="preserve"
+                class="legend-elem-img-k"
+              >
+                <path
+                  d="M45.301,0h-2.5h-8.2h-2.5h-8.2h-2.5h-8.2h-2.5H0v9.833v2.5v7.333v2.5V32h10.7h2.5h29.601h2.5H56v-9.833v-2.5v-7.333v-2.5V0
                               H45.301z M34.6,2.5h8.2v7.333h-8.2V2.5z M42.801,19.667h-8.2v-7.333h8.2V19.667z M13.2,12.333h8.2v7.333h-8.2V12.333z M23.9,12.333
                               h8.2v7.333h-8.2V12.333z M13.2,2.5h8.2v7.333h-8.2V2.5z M2.5,2.5h8.2v7.333H2.5V2.5z M2.5,12.333h8.2v7.333H2.5V12.333z
                               M42.801,29.5H13.2v-7.333h8.2h2.5h8.2h2.5h8.2V29.5z M53.5,29.5h-8.199v-7.333H53.5V29.5z M53.5,19.667h-8.199v-7.333H53.5V19.667
-                              z M45.301,9.833V2.5H53.5v7.333H45.301z"/>
-                        </svg>
-                        </div>
-                        <div class="legend-elem-right">
-                            <div id="redo-hint" class="h6 w700">Ctrl+Y</div>
-                            <div class="h6 w400">Redo</div>
-                        </div>
-                    </div>
-                    <div class="legend-elem">
-                        <div class="legend-elem-left">
-                            <svg version="1.1" x="0px" y="0px" viewBox="0 0 32 56" xml:space="preserve" class="legend-elem-img-k1">
-                           <path d="M16,0C7.178,0,0,7.408,0,16.513v22.974C0,48.592,7.178,56,16,56c8.823,0,16-7.408,16-16.513V16.513
+                              z M45.301,9.833V2.5H53.5v7.333H45.301z"
+                />
+              </svg>
+            </div>
+            <div class="legend-elem-right">
+              <div id="redo-hint" class="h6 w700">Ctrl+Y</div>
+              <div class="h6 w400">Wiederholen</div>
+            </div>
+          </div>
+          <div class="legend-elem">
+            <div class="legend-elem-left">
+              <svg
+                version="1.1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 32 56"
+                xml:space="preserve"
+                class="legend-elem-img-k1"
+              >
+                <path
+                  d="M16,0C7.178,0,0,7.408,0,16.513v22.974C0,48.592,7.178,56,16,56c8.823,0,16-7.408,16-16.513V16.513
                               C32,7.408,24.822,0,16,0z M18.567,14.498v5.875c0,1.463-1.149,2.649-2.567,2.649s-2.567-1.186-2.567-2.649v-5.875
                               c0-1.463,1.149-2.649,2.567-2.649C17.418,11.849,18.567,13.035,18.567,14.498z M16,53.607c-7.544,0-13.681-6.334-13.681-14.12
                               V16.513c0-7.786,6.137-14.12,13.681-14.12c0,0,0,0,0,0v7.062c0,0,0,0,0,0c-2.694,0-4.886,2.262-4.886,5.043v5.875
-                              c0,2.78,2.192,5.042,4.886,5.042h0v8.259h13.681v5.812C29.681,47.272,23.543,53.607,16,53.607z"/>
-                        </svg>
-                        </div>
-                        <div class="legend-elem-right">
-                            <div class="h6 w700">Right Click</div>
-                            <div class="h6 w400">Toggle Shape Outlines</div>
-                        </div>
-                    </div>
-                </div>
+                              c0,2.78,2.192,5.042,4.886,5.042h0v8.259h13.681v5.812C29.681,47.272,23.543,53.607,16,53.607z"
+                />
+              </svg>
             </div>
-            <div class="editor-secon-content">
-                <div id='b3' class="d-only editor-button e-btn-left h4 w500">
-                    <span class="editor-button-sign h2">
-                     <svg version="1.1" x="0px" y="0px" viewBox="0 0 49 64"  xml:space="preserve" class="invert-on-hover">
-                        <path  d="M0.2,64h48.3v-8.1H0.2V64z M49,28.1l-5.8-5.4L28.5,37.4V0h-8.1v37.4L5.7,22.7L0,28.1l24.4,24.6L49,28.1z"/>
-                     </svg>
-                  </span>
-                    <span>Download</span>
-                </div>
-                <div id='b2' class="editor-button e-btn-right h4 w500">
-                    <span class="editor-button-sign h2">↻</span>
-                    <span>Rewind</span>
-                </div>
-                <div class="m-only editor-button e-btn-right hide-l-border h4 w500">
-                    <span class="editor-button-sign h2">✗</span>
-                    <span>Hide outlines</span>
-                </div>
-                <div id='b5' class="d-only  editor-button e-btn-left h4 w500 edf">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve" class="edss primary-fill">
-                     <g>
-                        <path d="M1.1,12c0.7,1.2,1.7,2.2,2.9,2.9V12H1.1z"/>
-                        <path d="M8,12v4c1.5,0,2.8-0.4,4-1.1V12H8z"/>
-                        <rect x="4" y="8" width="4" height="4"/>
-                        <path d="M12,12h2.9c0.7-1.2,1.1-2.5,1.1-4h-4V12z"/>
-                        <path d="M4,4H1.1C0.4,5.2,0,6.5,0,8h4V4z"/>
-                        <rect x="8" y="4" width="4" height="4"/>
-                        <path d="M8,4V0C6.5,0,5.2,0.4,4,1.1V4H8z"/>
-                        <path d="M14.9,4c-0.7-1.2-1.7-2.2-2.9-2.9V4H14.9z"/>
-                     </g>
-                  </svg> w/ transparent background
-                </div>
-                <div id='b4' class="d-only  editor-button e-btn-left h4 w500 eds">
-                    <span class="edfs"></span> w/ solid colour background
-                </div>
+            <div class="legend-elem-right">
+              <div class="h6 w700">Rechts Klick</div>
+              <div class="h6 w400">Formkonturen umschalten</div>
             </div>
+          </div>
         </div>
-        <div class="editor-tool unsl" id="ill" oncontextmenu="return false;">
-            <canvas class='canvas d-only' id='bezier-bottom'></canvas>
-            <div class="canvas-overlay d-only" id='canv-overlay'></div>
+      </div>
+      <div class="editor-secon-content">
+        <div id="b3" class="d-only editor-button e-btn-left h4 w500">
+          <span class="editor-button-sign h2">
+            <svg
+              version="1.1"
+              x="0px"
+              y="0px"
+              viewBox="0 0 49 64"
+              xml:space="preserve"
+              class="invert-on-hover"
+            >
+              <path
+                d="M0.2,64h48.3v-8.1H0.2V64z M49,28.1l-5.8-5.4L28.5,37.4V0h-8.1v37.4L5.7,22.7L0,28.1l24.4,24.6L49,28.1z"
+              />
+            </svg>
+          </span>
+          <span>Herunterladen</span>
+        </div>
+        <div id="b2" class="editor-button e-btn-right h4 w500">
+          <span class="editor-button-sign h2">↻</span>
+          <span>Zurück</span>
+        </div>
+        <div class="m-only editor-button e-btn-right hide-l-border h4 w500">
+          <span class="editor-button-sign h2">✗</span>
+          <span>Umrisse ausblenden</span>
+        </div>
+        <div id="b5" class="d-only editor-button e-btn-left h4 w500 edf">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 16 16"
+            style="enable-background: new 0 0 16 16"
+            xml:space="preserve"
+            class="edss primary-fill"
+          >
+            <g>
+              <path d="M1.1,12c0.7,1.2,1.7,2.2,2.9,2.9V12H1.1z" />
+              <path d="M8,12v4c1.5,0,2.8-0.4,4-1.1V12H8z" />
+              <rect x="4" y="8" width="4" height="4" />
+              <path d="M12,12h2.9c0.7-1.2,1.1-2.5,1.1-4h-4V12z" />
+              <path d="M4,4H1.1C0.4,5.2,0,6.5,0,8h4V4z" />
+              <rect x="8" y="4" width="4" height="4" />
+              <path d="M8,4V0C6.5,0,5.2,0.4,4,1.1V4H8z" />
+              <path d="M14.9,4c-0.7-1.2-1.7-2.2-2.9-2.9V4H14.9z" />
+            </g>
+          </svg>
+          mit transparentem Hintergrund
+        </div>
+        <div id="b4" class="d-only editor-button e-btn-left h4 w500 eds">
+          <span class="edfs"></span> mit einfarbigem Hintergrund
+        </div>
+      </div>
+    </div>
+    <div class="editor-tool unsl" id="ill" oncontextmenu="return false;">
+      <canvas class="canvas d-only" id="bezier-bottom"></canvas>
+      <div class="canvas-overlay d-only" id="canv-overlay"></div>
 
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220.6 326.1" style="enable-background:new 0 0 220.6 326.1;" xml:space="preserve" class='m-only editor-mobile-image'>
-                  <path class="g-layer-0" d="M5.5,321.3H137c41.1,0,68.8-21.7,68.8-60.5c0-38.5-27.7-60.5-68.8-60.5H39.5l6.4,14.2l36.6-59.1L49.2,137
-                     L5.5,208v26.5h127.4c19.1,0,32.1,8.2,32.1,25.4c0,16.8-13.1,25.4-32.1,25.4H5.5V321.3z"/>
-                  <path class="g-layer-1" d="M192.7,92.5c0,49.7-38.5,84.8-93.1,84.8C44.3,177.4,7,142.3,7,91.1C7,39.8,44.7,4.7,99.7,4.7h115.9V41h-43.2
+      <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 220.6 326.1"
+        style="enable-background: new 0 0 220.6 326.1"
+        xml:space="preserve"
+        class="m-only editor-mobile-image"
+      >
+        <path
+          class="g-layer-0"
+          d="M5.5,321.3H137c41.1,0,68.8-21.7,68.8-60.5c0-38.5-27.7-60.5-68.8-60.5H39.5l6.4,14.2l36.6-59.1L49.2,137
+                     L5.5,208v26.5h127.4c19.1,0,32.1,8.2,32.1,25.4c0,16.8-13.1,25.4-32.1,25.4H5.5V321.3z"
+        />
+        <path
+          class="g-layer-1"
+          d="M192.7,92.5c0,49.7-38.5,84.8-93.1,84.8C44.3,177.4,7,142.3,7,91.1C7,39.8,44.7,4.7,99.7,4.7h115.9V41h-43.2
                      C186.1,54.4,192.7,71.3,192.7,92.5z M48.1,91.1c0,29.5,20.9,49.7,51.6,49.7c30.6,0,52-20.2,52-49.7c0-29.2-21.3-49.7-52-49.7
-                     C69,41.3,48.1,61.9,48.1,91.1z"/>
-                  <g>
-                     <path class="g-layer-2" d="M104.6,41.5c-0.1-2.7-2.3-4.9-5-4.9c-2.7,0-4.9,2.2-5,4.9c-12.8,1-23.9,5.7-32.2,13.7
+                     C69,41.3,48.1,61.9,48.1,91.1z"
+        />
+        <g>
+          <path
+            class="g-layer-2"
+            d="M104.6,41.5c-0.1-2.7-2.3-4.9-5-4.9c-2.7,0-4.9,2.2-5,4.9c-12.8,1-23.9,5.7-32.2,13.7
                         c-8,7.8-12.9,18.4-14,30.3c-2.3,0.5-4,2.5-4,4.9c0,2.4,1.7,4.4,3.9,4.9C49.1,108,54,118.9,62.4,127c8.1,7.8,18.8,12.4,31.3,13.5
                         c0.4,2.4,2.4,4.3,4.9,4.3c2.5,0,4.5-1.8,4.9-4.1c13.4-0.7,25-5.4,33.7-13.7c8.4-8,13.3-18.7,14.3-31.1c2.5-0.3,4.5-2.4,4.5-5
                         c0-2.6-2-4.7-4.5-5c-1.1-12.1-6-22.9-14.3-30.7C128.8,47.3,117.4,42.5,104.6,41.5z M135.7,125.5c-8.3,7.9-19.4,12.4-32.3,13.1
                         c-0.5-2.2-2.5-3.9-4.9-3.9c-2.3,0-4.3,1.6-4.8,3.7c-12-1.1-22.3-5.5-30-13c-8-7.7-12.6-18.1-13.5-30.2c2.3-0.4,4.1-2.5,4.1-4.9
                         c0-2.4-1.7-4.4-4-4.9c1.1-11.5,5.7-21.4,13.4-28.9c8-7.8,18.7-12.3,31.2-13.2c0.7,1.8,2.5,3.1,4.6,3.1c2.1,0,3.9-1.3,4.6-3.1
                         c12.4,0.9,23.5,5.5,31.5,13.2c7.9,7.5,12.6,17.9,13.7,29.5c-2,0.6-3.5,2.5-3.5,4.7c0,2.2,1.5,4.1,3.5,4.7
-                        C148.5,107.6,143.8,117.9,135.7,125.5z"/>
-                     <path class="g-layer-2" d="M220.6,10V0h-10v3.7H105.1V0h-10v3.8C69.8,4.7,48.1,13,32,28C16,42.9,7.1,63.1,6.1,86.5
+                        C148.5,107.6,143.8,117.9,135.7,125.5z"
+          />
+          <path
+            class="g-layer-2"
+            d="M220.6,10V0h-10v3.7H105.1V0h-10v3.8C69.8,4.7,48.1,13,32,28C16,42.9,7.1,63.1,6.1,86.5
                         c-2.4,0.3-4.3,2.4-4.3,4.9c0,2.5,1.9,4.6,4.4,4.9c1.2,23.2,10,43.1,25.8,57.8c1.2,1.1,2.4,2.2,3.6,3.2L7.3,203.1H0v10h4.5v16.3H0
                         v10h10v-3.8h119.8v3.8h10V236c13.9,1.7,22.3,8.7,23.9,19.8c-2.1,0.6-3.7,2.5-3.7,4.8c0,2.2,1.5,4.1,3.5,4.7
                         c-2.1,10.3-10.6,16.9-23.7,18.6v-3.1h-10v3.5H10v-3.5H0v10h4.5v25.2H0v10h10v-3.8h123.8v3.8h10v-4c37.4-2.3,61-23.5,62.9-56.9
@@ -129,16 +202,29 @@
                         c0,2.3,1.6,4.3,3.8,4.8c-1.2,21.7-10.2,41.1-25.6,55.1c-15.6,14.2-37.2,22.4-61.4,23.4c-0.3-2.5-2.4-4.5-4.9-4.5
                         c-2.6,0-4.7,2-4.9,4.5c-7.8-0.3-15.2-1.3-22.2-3l8.8-14.2h4.4v-6.9h-6.9v0.1l-26.3-14.5v-3.9h-6.9v6.9h0.2l-9.2,14.9
                         c-1.1-0.9-2.2-1.9-3.3-2.9c-15.4-14.4-24-33.8-25.1-56.5c2.1-0.6,3.6-2.5,3.6-4.8c0-2.3-1.6-4.2-3.7-4.8c1-23,9.7-42.7,25.3-57.2
-                        c15.7-14.6,37-22.7,61.7-23.6V10h10V5.7h105.4V10h4V36.2z M156.3,36.2l1-2.4h4.8c2.8,2,5.3,4,7.7,6.2h-13.2v-3.8H156.3z"/>
-                  </g>
-                  </svg>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 427.8 65" style="enable-background:new 0 0 427.8 65;" xml:space="preserve" class='m-only editor-mobile-sticker'>
-
-<g>
-	<rect x="1" y="1" class="primary-fill" width="425.8" height="63"/>
-	<path class="gray-fill" d="M427.8,65H0V0h427.8V65z M2,63h423.8V2H2V63z"/>
-</g>
-<path class="secondary-fill" d="M26.5,30.2l-2.1,5.5l-2.1-5.5l-2.3-6h-4L22.6,41h3.6l6.5-16.8h-3.9L26.5,30.2z M38.7,41V24.2H35V41H38.7z M48.6,41.3
+                        c15.7-14.6,37-22.7,61.7-23.6V10h10V5.7h105.4V10h4V36.2z M156.3,36.2l1-2.4h4.8c2.8,2,5.3,4,7.7,6.2h-13.2v-3.8H156.3z"
+          />
+        </g>
+      </svg>
+      <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 427.8 65"
+        style="enable-background: new 0 0 427.8 65"
+        xml:space="preserve"
+        class="m-only editor-mobile-sticker"
+      >
+        <g>
+          <rect x="1" y="1" class="primary-fill" width="425.8" height="63" />
+          <path class="gray-fill" d="M427.8,65H0V0h427.8V65z M2,63h423.8V2H2V63z" />
+        </g>
+        <path
+          class="secondary-fill"
+          d="M26.5,30.2l-2.1,5.5l-2.1-5.5l-2.3-6h-4L22.6,41h3.6l6.5-16.8h-3.9L26.5,30.2z M38.7,41V24.2H35V41H38.7z M48.6,41.3
 	c3.9,0,6.4-1.9,6.4-5c0-2.7-1.7-4.2-5.9-5.2c-2.6-0.6-3.5-1.3-3.5-2.4c0-1.1,1-1.8,2.7-1.8c1.8,0,2.9,0.9,2.9,2.5h3.6
 	c0-3.4-2.5-5.5-6.5-5.5c-3.8,0-6.2,1.9-6.2,4.9c0,2.7,1.8,4.3,5.8,5.2c2.4,0.5,3.5,1.2,3.5,2.4c0,1.2-1,1.8-2.7,1.8
 	c-1.9,0-3.1-1-3.1-2.6h-3.6C41.8,39.1,44.4,41.3,48.6,41.3z M61.8,41V24.2h-3.7V41H61.8z M64.6,24.2v3.5H70V41h3.7V27.7H79v-3.5
@@ -161,424 +247,416 @@
 	 M378.2,41l-6.7-16.8h-3.6L361.2,41h3.9l1.2-3h6.7l1.2,3H378.2z M372.1,35.1h-4.8l2.4-6.3L372.1,35.1z M387.3,41.3
 	c4.4,0,7.8-2.7,8.7-6.7h-3.8c-0.7,2-2.5,3.2-4.8,3.2c-2.9,0-5-2.1-5-5.2s2.1-5.2,5-5.2c2.2,0,4,1.2,4.6,3.1h3.8
 	c-1-4-4.3-6.6-8.6-6.6c-5.1,0-8.6,3.6-8.6,8.7C378.7,37.7,382.2,41.3,387.3,41.3z M396.8,24.2v3.5h5.3V41h3.7V27.7h5.4v-3.5H396.8z"
-	/>
-</svg>
-
-
-        </div>
-        <div class="m-only editor-button e-btn-left h4 w500">
-            <span class="editor-button-sign h2">
-               <svg version="1.1" x="0px" y="0px" viewBox="0 0 49 64"  xml:space="preserve" class="un-dwnld">
-                  <path  d="M0.2,64h48.3v-8.1H0.2V64z M49,28.1l-5.8-5.4L28.5,37.4V0h-8.1v37.4L5.7,22.7L0,28.1l24.4,24.6L49,28.1z"/>
-               </svg>
-            </span>
-            <span>Download</span>
-        </div>
-    </section>
+        />
+      </svg>
+    </div>
+    <div class="m-only editor-button e-btn-left h4 w500">
+      <span class="editor-button-sign h2">
+        <svg
+          version="1.1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 49 64"
+          xml:space="preserve"
+          class="un-dwnld"
+        >
+          <path
+            d="M0.2,64h48.3v-8.1H0.2V64z M49,28.1l-5.8-5.4L28.5,37.4V0h-8.1v37.4L5.7,22.7L0,28.1l24.4,24.6L49,28.1z"
+          />
+        </svg>
+      </span>
+      <span>Herunterladen</span>
+    </div>
+  </section>
 </template>
 <script>
 export default {
-  name: 'Editor'
+  name: "Editor",
 };
 </script>
 <style>
 .section-editor {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .section-editor {
-        flex-direction: column;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .section-editor {
+    flex-direction: column;
+  }
 }
 
 .editor-content-holder {
-    position: relative;
-    width: 39.0625vw;
-    background-color: var(--c-g-5);
+  position: relative;
+  width: 39.0625vw;
+  background-color: var(--c-g-5);
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-content-holder {
-        color: var(--c-g-2);
-        width: 100vw;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-content-holder {
+    color: var(--c-g-2);
+    width: 100vw;
+  }
 }
 
 .editor-main-content {
-    position: relative;
-    height: 37.96875vw;
-    padding: 3.3333333333vw 4.5833333333vw;
-    border: 0.0520833333vw solid var(--c-g-4);
-    border-bottom: none;
+  position: relative;
+  height: 37.96875vw;
+  padding: 3.3333333333vw 4.5833333333vw;
+  border: 0.0520833333vw solid var(--c-g-4);
+  border-bottom: none;
 }
 
 .editor-main-content h1 {
-    padding-bottom: 0.8333333333vw;
+  padding-bottom: 0.8333333333vw;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-main-content {
-        height: 24.8697916667vw;
-        padding: 6.25vw 4.1666666667vw;
-    }
-    .editor-main-content h1 {
-        padding-bottom: 1.0416666667vw;
-    }
-}
-
-@media (max-width: 767px) {
-    .editor-main-content {
-        height: 41.3333333333vw;
-        padding: 8.5333333333vw 6.6666666667vw;
-    }
-}
-
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-mobile-sticker {
-        position: absolute;
-        left: 24.4791666667vw;
-        top: 23.4375vw;
-        width: 50.78125vw;
-        z-index: 5;
-        transform: rotate(-45deg);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-main-content {
+    height: 24.8697916667vw;
+    padding: 6.25vw 4.1666666667vw;
+  }
+  .editor-main-content h1 {
+    padding-bottom: 1.0416666667vw;
+  }
 }
 
 @media (max-width: 767px) {
-    .editor-mobile-sticker {
-        left: -2.6666666667vw;
-        top: 42.6666666667vw;
-        width: 100.2666666667vw;
-    }
+  .editor-main-content {
+    height: 41.3333333333vw;
+    padding: 8.5333333333vw 6.6666666667vw;
+  }
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-mobile-image {
-        width: 27.0833333333vw;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-mobile-sticker {
+    position: absolute;
+    left: 24.4791666667vw;
+    top: 23.4375vw;
+    width: 50.78125vw;
+    z-index: 5;
+    transform: rotate(-45deg);
+  }
 }
 
 @media (max-width: 767px) {
-    .editor-mobile-image {
-        width: 46.4vw;
-    }
+  .editor-mobile-sticker {
+    left: -2.6666666667vw;
+    top: 42.6666666667vw;
+    width: 100.2666666667vw;
+  }
+}
+
+@media (max-width: 1024px), (hover: none) {
+  .editor-mobile-image {
+    width: 27.0833333333vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .editor-mobile-image {
+    width: 46.4vw;
+  }
 }
 
 .editor-secon-content {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-secon-content {
-        justify-content: space-between;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-secon-content {
+    justify-content: space-between;
+  }
 }
 
 .edf {
-    position: absolute;
-    top: 0vw;
-    left: 0;
-    width: 19.5833333333vw !important;
-    z-index: 1 !important;
-    transition: 0.4s;
-    border-left: 0.0520833333vw solid var(--c-g-7) !important;
-    border-right: 0.0520833333vw solid var(--c-g-7) !important;
-    border-bottom: none !important;
+  position: absolute;
+  top: 0vw;
+  left: 0;
+  width: 19.5833333333vw !important;
+  z-index: 1 !important;
+  transition: 0.4s;
+  border-left: 0.0520833333vw solid var(--c-g-7) !important;
+  border-right: 0.0520833333vw solid var(--c-g-7) !important;
+  border-bottom: none !important;
 }
 
 @media (max-width: 1366px) {
-    .edf {
-        top: 0vw;
-    }
+  .edf {
+    top: 0vw;
+  }
 }
 
 .edf .primary-fill {
-    transition: 0.4s;
+  transition: 0.4s;
 }
 
 @media (min-width: 1025px) {
-    .edf:hover .primary-fill {
-        fill: var(--c-black);
-    }
+  .edf:hover .primary-fill {
+    fill: var(--c-black);
+  }
 }
 
 .edfs {
-    width: 0.8333333333vw;
-    height: 0.8333333333vw;
-    border-radius: 50%;
-    background-color: var(--c-primary);
-    margin-right: 0.3125vw;
-    margin-left: 0.2083333333vw;
-    transition: 0.4s;
+  width: 0.8333333333vw;
+  height: 0.8333333333vw;
+  border-radius: 50%;
+  background-color: var(--c-primary);
+  margin-right: 0.3125vw;
+  margin-left: 0.2083333333vw;
+  transition: 0.4s;
 }
 
 .edss {
-    width: 0.8333333333vw;
-    height: 0.8333333333vw;
-    margin-right: 0.3125vw;
-    margin-left: 0.2083333333vw;
+  width: 0.8333333333vw;
+  height: 0.8333333333vw;
+  margin-right: 0.3125vw;
+  margin-left: 0.2083333333vw;
 }
 
 .eds {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0 !important;
-    width: 19.5833333333vw !important;
-    transition: 0.4s;
-    border-left: 0.0520833333vw solid var(--c-g-7) !important;
-    border-right: 0.0520833333vw solid var(--c-g-7) !important;
-    border-bottom: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0 !important;
+  width: 19.5833333333vw !important;
+  transition: 0.4s;
+  border-left: 0.0520833333vw solid var(--c-g-7) !important;
+  border-right: 0.0520833333vw solid var(--c-g-7) !important;
+  border-bottom: none !important;
 }
 
 @media (max-width: 1366px) {
-    .eds {
-        top: 0vw;
-    }
+  .eds {
+    top: 0vw;
+  }
 }
 
 .editor-button {
-    width: 19.53125vw;
-    height: 3.2291666667vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: 0.4s;
-    text-align: right;
+  width: 19.53125vw;
+  height: 3.2291666667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.4s;
+  text-align: right;
 }
 
 @media (max-width: 1366px) {
-    .editor-button {
-        text-align: center;
-        height: 3.6979166667vw;
-    }
+  .editor-button {
+    text-align: center;
+    height: 3.6979166667vw;
+  }
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-button {
-        width: 50vw;
-        height: 8.0729166667vw;
-        transition: none;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-button {
+    width: 50vw;
+    height: 8.0729166667vw;
+    transition: none;
+  }
 }
 
 @media (max-width: 767px) {
-    .editor-button {
-        width: 50vw;
-        height: 12vw;
-        transition: none;
-    }
+  .editor-button {
+    width: 50vw;
+    height: 12vw;
+    transition: none;
+  }
 }
 
 @media (min-width: 1025px) {
-    .editor-button:hover {
-        color: var(--c-black);
-        background-color: var(--c-orange);
-    }
+  .editor-button:hover {
+    color: var(--c-black);
+    background-color: var(--c-orange);
+  }
 }
 
 .inactive-b {
-    background-color: var(--c-orange) !important;
-    color: var(--c-black) !important;
-    width: 19.53125vw;
-    height: 3.2291666667vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.4s;
-    text-align: right;
-    cursor: pointer;
+  background-color: var(--c-orange) !important;
+  color: var(--c-black) !important;
+  width: 19.53125vw;
+  height: 3.2291666667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  text-align: right;
+  cursor: pointer;
 }
 
 @media (max-width: 1366px) {
-    .inactive-b {
-        text-align: center;
-        height: 3.6979166667vw;
-    }
+  .inactive-b {
+    text-align: center;
+    height: 3.6979166667vw;
+  }
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .inactive-b {
-        width: 49.8666666667vw;
-        height: 12vw;
-        transition: none;
-        border-top: solid 0.5333333333vw var(--c-g-4);
-        border-bottom: solid 0.2666666667vw var(--c-g-4);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .inactive-b {
+    width: 49.8666666667vw;
+    height: 12vw;
+    transition: none;
+    border-top: solid 0.5333333333vw var(--c-g-4);
+    border-bottom: solid 0.2666666667vw var(--c-g-4);
+  }
 }
 
 .inactive-b .invert-on-hover {
-    fill: var(--c-black) !important;
+  fill: var(--c-black) !important;
 }
 
 .invert-on-hover {
-    width: 0.9578125vw;
-    fill: var(--c-primary);
-    transition: 0.4s;
+  width: 0.9578125vw;
+  fill: var(--c-primary);
+  transition: 0.4s;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .invert-on-hover {
-        width: 2.4vw;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .invert-on-hover {
+    width: 2.4vw;
+  }
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .un-dwnld {
-        width: 2.4vw;
-        fill: var(--c-g-2);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .un-dwnld {
+    width: 2.4vw;
+    fill: var(--c-g-2);
+  }
 }
 
 .editor-button:hover .edfs {
-    background-color: var(--c-black);
+  background-color: var(--c-black);
 }
 
 .editor-button:hover .invert-on-hover {
-    fill: var(--c-black);
+  fill: var(--c-black);
 }
 
 .e-btn-right {
-    color: var(--c-primary);
-    background-color: var(--c-secondary);
-    z-index: 2;
-    border: 0.0520833333vw solid var(--c-g-7);
-    transition: 0.4s;
+  color: var(--c-primary);
+  background-color: var(--c-secondary);
+  z-index: 2;
+  border: 0.0520833333vw solid var(--c-g-7);
+  transition: 0.4s;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .e-btn-right {
-        color: var(--c-g-2);
-        background-color: var(--c-g-5);
-        border: 0.1302083333vw solid var(--c-g-4);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .e-btn-right {
+    color: var(--c-g-2);
+    background-color: var(--c-g-5);
+    border: 0.1302083333vw solid var(--c-g-4);
+  }
 }
 
 @media (max-width: 767px) {
-    .e-btn-right {
-        border: 0.2666666667vw solid var(--c-g-4);
-    }
+  .e-btn-right {
+    border: 0.2666666667vw solid var(--c-g-4);
+  }
 }
 
 .e-btn-left {
-    color: var(--c-primary);
-    background-color: var(--c-secondary);
-    z-index: 2;
-    transition: 0.4s;
-    border: 0.0520833333vw solid var(--c-g-7);
-    border-right: none;
-    border-left: 0.0520833333vw solid var(--c-g-7);
+  color: var(--c-primary);
+  background-color: var(--c-secondary);
+  z-index: 2;
+  transition: 0.4s;
+  border: 0.0520833333vw solid var(--c-g-7);
+  border-right: none;
+  border-left: 0.0520833333vw solid var(--c-g-7);
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .e-btn-left {
-        width: 100vw !important;
-        color: var(--c-g-2);
-        background-color: var(--c-g-5);
-        border: 0.1302083333vw solid var(--c-g-4);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .e-btn-left {
+    width: 100vw !important;
+    color: var(--c-g-2);
+    background-color: var(--c-g-5);
+    border: 0.1302083333vw solid var(--c-g-4);
+  }
 }
 
 @media (max-width: 767px) {
-    .e-btn-left {
-        border: 0.2666666667vw solid var(--c-g-4);
-    }
+  .e-btn-left {
+    border: 0.2666666667vw solid var(--c-g-4);
+  }
 }
 
 .editor-button-sign {
-    padding-right: 0.4166666667vw;
+  padding-right: 0.4166666667vw;
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-button-sign {
-        padding-right: 1.0666666667vw;
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-button-sign {
+    padding-right: 1.0666666667vw;
+  }
 }
 
 .editor-tool {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: crosshair;
-    width: 60.9375vw !important;
-    height: 41.1979166667vw !important;
-    background-color: var(--c-primary);
-    border: 0.0520833333vw solid var(--c-g-4);
-    border-left: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
+  width: 60.9375vw !important;
+  height: 41.1979166667vw !important;
+  background-color: var(--c-primary);
+  border: 0.0520833333vw solid var(--c-g-4);
+  border-left: none;
 }
 
 @media (max-width: 1366px) {
-    .editor-tool {
-        height: 41.6666666667vw !important;
-    }
+  .editor-tool {
+    height: 41.6666666667vw !important;
+  }
 }
 
-@media (max-width: 1024px),
-(hover:none) {
-    .editor-tool {
-        width: 100vw !important;
-        height: 54.6875vw !important;
-        border-bottom: none;
-        border-top: none;
-        background-color: var(--c-g-5);
-    }
+@media (max-width: 1024px), (hover: none) {
+  .editor-tool {
+    width: 100vw !important;
+    height: 54.6875vw !important;
+    border-bottom: none;
+    border-top: none;
+    background-color: var(--c-g-5);
+  }
 }
 
 @media (max-width: 767px) {
-    .editor-tool {
-        height: 100.8vw !important;
-    }
+  .editor-tool {
+    height: 100.8vw !important;
+  }
 }
 
 .canvas {
-    cursor: crosshair;
-    width: 60.9375vw;
-    height: 41.09375vw;
-    position: absolute;
-    top: 0;
-    right: 0;
+  cursor: crosshair;
+  width: 60.9375vw;
+  height: 41.09375vw;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 1366px) {
-    .canvas {
-        height: 41.5625vw;
-    }
+  .canvas {
+    height: 41.5625vw;
+  }
 }
 
 .canvas-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 60.9375vw;
-    height: 41.1979166667vw;
-    background-color: var(--c-secondary);
-    opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60.9375vw;
+  height: 41.1979166667vw;
+  background-color: var(--c-secondary);
+  opacity: 0;
 }
 
 @media (max-width: 1366px) {
-    .canvas-overlay {
-        height: 41.6145833333vw;
-    }
+  .canvas-overlay {
+    height: 41.6145833333vw;
+  }
 }
-
 </style>

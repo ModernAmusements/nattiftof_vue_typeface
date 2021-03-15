@@ -54,14 +54,14 @@
               d="M0.2,64h48.3v-8.1H0.2V64z M49,28.1l-5.8-5.4L28.5,37.4V0h-8.1v37.4L5.7,22.7L0,28.1l24.4,24.6L49,28.1z"
             />
           </svg>
-          Get 2 free fonts
+          Erhalten Sie 2 kostenlose Schriftarten
           <div class="hero-pop-up-close" id="downtrig2">✗</div>
         </div>
 
         <h4 class="h4 w400">
-          Enter your e-mail and get <span class="w700">Nattiftof Book</span> and
-          <span class="w700">Nattiftof Heavy</span> free desktop and web fonts with license to
-          use as you wish. Nattiftof’s Type specimen included as well.
+          Geben Sie Ihre E-Mail ein und erhalten Sie <span class="w700">Nattiftof Book</span> und
+          <span class="w700">Nattiftof Heavy</span> kostenlose Desktop- und Web-Fonts mit Lizenz zur
+          nach Belieben zu verwenden. Nattiftof's Type specimen ebenfalls enthalten.
         </h4>
 
         <!-- Begin Mailchimp Signup Form -->
@@ -74,10 +74,10 @@
         >
           <div class="abs-cont h4 w700">
             <div class="error-message error-message-invalid-email">
-              Please provide a valid email address.
+              Bitte geben Sie eine gültige E-Mail Adresse an.
             </div>
             <div class="error-message error-message-unknown">
-              Something went wrong. Please try again.
+              Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.
             </div>
           </div>
           <input
@@ -85,12 +85,12 @@
             class="hero-pop-up-input h5 w400 email-input"
             type="email"
             name="email"
-            placeholder="Enter your email..."
+            placeholder="Geben Sie Ihre E-Mail ein..."
             onfocus="this.placeholder = ''"
-            onblur="this.placeholder = 'Enter your email...'"
+            onblur="this.placeholder = 'Geben Sie Ihre E-Mail ein...'"
             required
           />
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <!-- HONEYPOT -->
           <div style="position: absolute; left: -5000px" aria-hidden="true">
             <input
               type="text"
@@ -108,11 +108,11 @@
             class="hero-pop-up-button h4 w500 mcform-submit"
           />
           <div class="hero-pop-up-subtitle h4 w700">
-            Learn about our next releases, offers and free fonts. We won’t spam.
+            Erfahren Sie mehr über unsere nächsten Veröffentlichungen, Angebote und kostenlosen Schriften. Wir werden nicht spammen.
           </div>
           <div class="consent-container hero-pop-up-check h4 w700">
             <span class="hero-pop-up-box">
-              <div class="w700 error-message">Please check the consent box.</div>
+              <div class="w700 error-message">Bitte kreuzen Sie das Zustimmungsfeld an.</div>
               <input
                 class="hero-pop-up-checkbox"
                 type="checkbox"
@@ -121,19 +121,19 @@
                 id="heroConsentCheck"
               />
               <label class="w400" for="heroConsentCheck"
-                >Yes, I would like to receive e-mails from Spacetype.</label
+                >Ja, ich möchte E-Mails von Typelab erhalten.</label
               >
             </span>
           </div>
           <div class="hero-pop-up-info h8 w400">
-            You can unsubscribe at any time by clicking the unsubscribe link from the
-            footer of our e-mails. By clicking above to subscribe, you acknowledge that
-            your information will be transferred to Mailchimp for processing. Learn more
-            about Mailchimp’s privacy practices
+           Sie können sich jederzeit wieder abmelden, indem Sie den Abmeldelink in der
+            Fußzeile unserer E-Mails klicken. Indem Sie oben klicken, um sich anzumelden, erkennen Sie an, dass
+            Ihre Daten zur Verarbeitung an Mailchimp übertragen werden. Erfahren Sie mehr
+            über die Datenschutzpraktiken von Mailchimp
             <a class="w700" href="https://mailchimp.com/legal/privacy/" target="_blank"
-              >here↗</a
-            >. See our Privacy Policy
-            <a class="w700" href="privacy-policy" target="_blank">here↗</a>.
+              >hier↗</a
+            >. Siehe unsere Datenschutzrichtlinie
+             <router-link class="w700" to="/privacy">hier↗</router-link>.
           </div>
         </form>
         <!--End Mailchimp Signup Form-->
@@ -142,19 +142,19 @@
 
     <div class="hero-ctas">
       <div class="hero-cta-l-text">
-        <div class="h2 w700">Buy Nattiftof</div>
-        <p class="h7 w400">Get the complete font family — 23 fonts.</p>
+        <div class="h2 w700">Nattiftof kaufen?</div>
+        <p class="h7 w400">Holen Sie sich die komplette Schriftfamilie - 23 Schriftarten.</p>
       </div>
       <a
         href="https://www.myfonts.com/fonts/spacetype/garet/?utm_source=cj&utm_medium=affiliate&utm_campaign=Spacetype+Ltd.&cjevent=9106534782aa11eb82df00a40a180510&utm_content=text_mf1"
         class="hero-button-left h7 w500"
         target="_blank"
-        >Buy↗</a
+        >Kaufen↗</a
       >
-      <div class="hero-button-right h7 w500 d-only" id="downtrig">Free download</div>
+      <div class="hero-button-right h7 w500 d-only" id="downtrig">Kostenloser Download</div>
       <div class="hero-cta-r-text d-only">
-        <div class="h2 w700">Two free weights</div>
-        <div class="h7 w400">Get Nattiftof Book & Nattiftof Heavy fonts for free.</div>
+        <div class="h2 w700">Zwei kostenlose Schnitte</div>
+        <div class="h7 w400">Holen Sie sich die Schriftarten Nattiftof Book & Nattiftof Heavy kostenlos.</div>
       </div>
     </div>
   </header>

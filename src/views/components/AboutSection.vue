@@ -1,26 +1,26 @@
 <template>
   <section class="about-de">
-    <div class="about-de-l h1 w500">About Typelab Foundry</div>
+    <div class="about-de-l h1 w500">Über Typelab Foundry</div>
     <div class="about-de-r h4t w400">
       <p>
-        Typelab Foundry is an independent type foundry founded by us -
-        Friederike Haeusler and Mats Weidemann.
+        Typelab Foundry ist eine unabhängige TypeFoundry, die von uns gegründet wurde -
+        Friederike Haeusler und Mats Weidemann.
       </p>
       <p>
-        After working together with significant ease for the past few years, we
-        decided it is time to team up. Driven by shared vision and inspiration,
-        we focus on producing high-quality original fonts with great
-        technological care.We started out as visual artists in various fields.
-        However, we both found ourselves most inspired when creating functional
-        designs, which in time grew into a passion for typography and type
-        design.
+       Nachdem wir in den letzten Jahren mit großer Leichtigkeit zusammengearbeitet haben, haben wir
+        beschlossen, dass es an der Zeit ist, ein Team zu bilden. Angetrieben von einer gemeinsamen Vision und Inspiration
+        konzentrieren wir uns auf die Produktion hochwertiger Originalschriften mit großer technischer Sorgfalt.
+        Angefangen haben wir als bildende Künstler in verschiedenen Bereichen.
+        Am meisten haben wir uns jedoch bei der Gestaltung funktionaler Designs inspirieren lassen.
+        Designs, was sich mit der Zeit zu einer Leidenschaft für Typografie und Schriftdesign entwickelte.
+        Gestaltung.
       </p>
       <p>
-        Now with several years of experience working on different successful
-        typefaces, we are ever so motivated to share what we are capable of.
+        Jetzt, mit mehreren Jahren Erfahrung in der Arbeit an unterschiedlichen
+        Schriften, sind wir so motiviert zu zeigen wozu wir fähig sind.
       </p>
       <div>
-        Contact us at <span class="w700">contact@TypelabFoundry.co</span>.
+        Kontaktieren Sie uns unter <span class="w700">contact@TypelabFoundry.co</span>.
       </div>
     </div>
   </section>

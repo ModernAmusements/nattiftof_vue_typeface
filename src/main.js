@@ -1,12 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-// import MondernAmusementKit from "./plugins/MondernAmusementKit"; 
+import MondernAmusementKit from "./plugins/MondernAmusementKit"; 
 import './registerServiceWorker'
 
 Vue.config.productionTip = false;
 
-// Vue.use(MondernAmusementKit);
+Vue.use(MondernAmusementKit);
 new Vue({
   router,
   render: h => h(App)

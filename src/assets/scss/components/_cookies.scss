@@ -1,0 +1,103 @@
+.cookies {
+    width: 100vw;
+    height: 6.1979166667vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4.5833333333vw;
+    padding-left: 4.5833333333vw;
+    background-color: var(--c-orange);
+    color: var(--c-black);
+    position: fixed;
+    z-index: 20;
+    bottom: -6.25vw;
+}
+
+.cookies a {
+    color: var(--c-black);
+}
+
+.cookies svg {
+    width: 1.25vw;
+    margin-right: 0.8333333333vw;
+    fill: var(--c-black);
+}
+
+@media (max-width: 1366px) {
+    .cookies {
+        height: 6.9791666667vw;
+        bottom: -17.578125vw;
+    }
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .cookies {
+        height: 16.5364583333vw;
+        bottom: -16.6666666667vw;
+        padding: 4.1666666667vw;
+    }
+    .cookies svg {
+        width: 3.125vw;
+        margin-right: 2.0833333333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .cookies {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 42.1333333333vw;
+        padding: 6.4vw;
+        bottom: -42.4vw;
+    }
+    .cookies svg {
+        width: 10.6666666667vw;
+        margin-right: 6.4vw;
+    }
+}
+
+.cookies-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cookies-button {
+    background-color: var(--c-black);
+    color: var(--c-white);
+    height: 2.0833333333vw;
+    width: 6.25vw;
+    border: var(--c-darkgray) 0.0520833333vw solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .cookies-button {
+        width: 15.625vw;
+        height: 5.2083333333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .cookies-button {
+        width: 22.1333333333vw;
+        height: 8.5333333333vw;
+        margin-left: 10.6666666667vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    .cookies-button:hover {
+        background-color: var(--c-orange);
+        color: var(--c-black);
+        border-color: var(--c-black);
+    }
+}

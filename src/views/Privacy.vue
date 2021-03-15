@@ -1,12 +1,12 @@
 <template>
   <section class="privacy-body">
-    <div class="privacy-header privacy-a">
+    <!-- <div class="privacy-header privacy-a">
       <a href="/" class="h2"><span id="navh"></span><span id="navn">TypelabFoundry</span></a>
       <div class="h4t w400">
         <span class="hide-m">Contact us at</span>
         <span class="w700">contact@TypelabFoundry.co</span>
       </div>
-    </div>
+    </div> -->
     <div class="h1 w400 center-t privacy-h1">Privacy Policy</div>
     <div class="h4t w400 privacy-g">
       We are very delighted that you have shown interest in us and our website. At
@@ -156,13 +156,13 @@
       >
       for more information about the terms and conditions.
     </div>
-    <!-- <div class="h1 w400 privacy-h1">Microphone usage</div>
+    <div class="h1 w400 privacy-h1">Microphone usage</div>
       <div class="h4t w400 privacy-a">
         In the section where microphone usage is requested and used only after
         your prior consent. It is for the main sole purpose of the interaction
         of the user and this section (audio interaction). We do not record, not
         listen, and store any data.
-      </div> -->
+      </div> 
     <div class="h1 w400 privacy-h1">Rights</div>
     <div class="h4t w400 privacy-p">
       As far as we process your personal data, you are data subject as per GDPR and you
@@ -181,7 +181,7 @@
     </div>
     <div class="h1 w400 privacy-k privacy-h1">Contact information</div>
     <div class="h4t w700 privacy-h1">TypelabFoundry Ltd.</div>
-    <div class="h4t w400 privacy-h1"><span class="w700">CEO:</span> Mirela Belova</div>
+    <div class="h4t w400 privacy-h1"><span class="w700">CEO:</span>Friederike Haeusler</div>
     <div class="h4t w400 privacy-h1">
       <span class="w700">E-mail:</span> contact@TypelabFoundry.co
     </div>

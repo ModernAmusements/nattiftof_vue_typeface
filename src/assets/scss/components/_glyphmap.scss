@@ -1,0 +1,252 @@
+.glyph-map {
+    background-color: var(--c-g-5);
+}
+
+.glyph-map-holder {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 0.0520833333vw var(--c-g-4);
+    border-bottom: solid 0.0520833333vw var(--c-g-4);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .glyph-map-holder {
+        border-width: 0.1302083333vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .glyph-map-holder {
+        border-width: 0.2666666667vw;
+    }
+}
+
+.glyph-map-text {
+    position: relative;
+    width: 100vw;
+    padding: 3.3333333333vw 4.5833333333vw;
+}
+
+.glyph-map-text h4 {
+    margin-top: 0.8333333333vw;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .glyph-map-text {
+        width: 100vw;
+        padding: 6.25vw 4.1666666667vw;
+        text-align: left;
+    }
+    .glyph-map-text h4 {
+        margin-top: 1.0416666667vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .glyph-map-text {
+        padding: 8.5333333333vw 6.6666666667vw;
+    }
+    .glyph-map-text h4 {
+        margin-top: 2.1333333333vw;
+    }
+}
+
+.mag-hol {
+    width: 102%;
+    height: 102%;
+    margin-top: -1%;
+    margin-left: -1%;
+    border-radius: 50%;
+    background-color: var(--c-black);
+    filter: opacity(0%);
+}
+
+.mag-inner {
+    position: absolute;
+    top: -0.4166666667vw;
+    width: 13.5416666667vw;
+    transform: rotate(90deg);
+    z-index: 4;
+}
+
+.mag-outer {
+    position: absolute;
+    top: -0.2590673575vw;
+    left: -1.0362694301vw;
+    width: 17.9166666667vw;
+    z-index: 3;
+}
+
+.glyph-map-di {
+    width: 100vw;
+    height: 34.9479166667vw;
+    filter: opacity(50%);
+    cursor: none;
+}
+
+.img-magnifier-container {
+    position: relative;
+    width: 100vw;
+    height: 34.9479166667vw;
+    background-color: var(--c-primary);
+    border-bottom: solid 0.0520833333vw var(--c-g-4);
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 0.1041666667vw solid var(--c-secondary);
+    border-radius: 50%;
+    cursor: none;
+    width: 13.6458333333vw;
+    height: 13.6458333333vw;
+    top: 41.8vw;
+    left: 16.9vw;
+    z-index: 5;
+}
+
+.glyph-map-interaction {
+    position: relative;
+    padding: 2.2916666667vw 0;
+    background-color: var(--c-primary);
+    border-bottom: solid 0.0520833333vw var(--c-g-4);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .glyph-map-interaction {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        border-bottom: solid 0.2666666667vw var(--c-g-4);
+    }
+}
+
+.glyph-container {
+    overflow: hidden;
+    position: relative;
+    cursor: crosshair;
+    white-space: nowrap;
+    padding: 2.2916666667vw 0;
+    width: 100vw;
+}
+
+.slider-row {
+    font: 5vw "GaretVariable";
+    position: relative;
+    color: var(--c-secondary);
+    display: inline-block;
+    margin: 0;
+    padding: 0 2vw;
+    transform: translateX(-50%);
+    will-change: transform;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .slider-row {
+        font-size: 13.5416666667vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .slider-row {
+        font-size: 25.6vw;
+        height: auto;
+    }
+}
+
+input[type=range].glyph-control::-webkit-slider-thumb {
+    opacity: 1;
+    background-color: var(--c-orange);
+}
+
+.glyph-control-holder {
+    display: none;
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .glyph-control-holder {
+        display: block;
+        width: 100vw;
+        background-color: var(--c-secondary);
+        color: var(--c-primary);
+        padding: 4.1666666667vw;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .glyph-control-holder {
+        display: block;
+        width: 100vw;
+        background-color: var(--c-secondary);
+        color: var(--c-primary);
+        padding: 8.5333333333vw 6.4vw 0vw 6.4vw;
+    }
+}
+
+.glyph-control {
+    -webkit-appearance: none;
+    width: 87.2vw;
+    margin-left: 6.4vw;
+    outline: none;
+    opacity: 1;
+    display: none;
+    height: 0.2666666667vw;
+    background-color: var(--c-g-4);
+}
+
+@media (max-width: 1024px),
+(hover:none) {
+    .glyph-control {
+        display: block;
+    }
+}
+
+.glyph-control::before {
+    position: absolute;
+    top: 50%;
+    width: 0.2666666667vw;
+    height: 3.7333333333vw;
+    margin-top: -1.8666666667vw;
+    left: 0;
+    background-color: var(--c-g-4);
+    content: " ";
+}
+
+.glyph-control::after {
+    position: absolute;
+    top: 50%;
+    width: 0.2666666667vw;
+    height: 3.7333333333vw;
+    margin-top: -1.8666666667vw;
+    right: 0;
+    background-color: var(--c-g-4);
+    content: " ";
+}
+
+.glyph-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4.8vw;
+    height: 4.8vw;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: var(--c-orange);
+    cursor: pointer;
+}
+
+.glyph-control::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4.8vw;
+    height: 4.8vw;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: var(--c-orange);
+    cursor: pointer;
+}

@@ -1,7 +1,21 @@
-@import "utils/vars";
-
 @import "base/reset",
         "base/helpers",
         "base/fonts",
         "base/typography";
 
+@import "utils/vars";
+
+@import "pages/about",
+        "pages/privacy";
+
+@import "components/header",
+        "components/legend",
+        "components/spacings",
+        "components/editor",
+        "components/texteditor",
+        "components/voice",
+        "components/glyphmap",
+        "components/footer",
+        "components/cookies",
+        "components/subscribe",
+        "components/navigation";

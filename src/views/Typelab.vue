@@ -641,27 +641,27 @@ export default {
         marginLeft: "-13.5vw",
         duration: .2
     }), Lt.to("#navb", {
-        marginLeft: "3.5vw",
+        marginLeft: "8.5vw",
         duration: .3
     }), Lt.pause();
     let Wt = gsap.timeline({
         repeat: 0
     });
     Wt.to("#navn", {
-        marginLeft: "-46.7333vw",
+        marginLeft: "-47vw",
         duration: .3
     }), Wt.to("#navb", {
-        marginLeft: "17vw",
+        marginLeft: "35vw",
         duration: .2
     }), Wt.pause();
     let Ct = gsap.timeline({
         repeat: 0
     });
     Ct.to("#navn", {
-        marginLeft: "-46.7333vw",
+        marginLeft: "-47vw",
         duration: .3
     }), Ct.to("#navb", {
-        marginLeft: "6.4vw",
+        marginLeft: "27.4vw",
         duration: .2
     }), Ct.pause();
     let kt = t => {

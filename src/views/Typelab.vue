@@ -13,6 +13,8 @@
         <Subscribe></Subscribe>
         <SpaceBoxSix></SpaceBoxSix>
         <Cookies></Cookies>
+        <TextEditorWidget></TextEditorWidget>
+        <TextEditorWidgetOTF></TextEditorWidgetOTF>
       </body>  
 </template>
 <script>
@@ -28,6 +30,8 @@ import Alphabet from "./components/Alphabet";
 import SpaceBoxFive from "./components/SpaceBoxFive";
 import Subscribe from "./components/Subscribe";
 import SpaceBoxSix from "./components/SpaceBoxSix";
+import TextEditorWidget from "./components/TextEditorWidget";
+import TextEditorWidgetOTF from "./components/TextEditorWidgetOTF";
 import Cookies from "./components/Cookies";
 export default {
   name: "Typelab",
@@ -44,6 +48,8 @@ export default {
     SpaceBoxFive,
     Subscribe,
     SpaceBoxSix,
+    TextEditorWidget,
+    TextEditorWidgetOTF,
     Cookies
   },
   mounted() {
@@ -190,7 +196,7 @@ export default {
                 e = t <= (C[n + 1] - C[n]) / 2 ? W[n] : W[n + 1];
                 break
             }
-        if (e) return `Similar to: <span class="w700">Garet ${e}</span>`
+        if (e) return `Similar to: <span class="w700">Nattiftof ${e}</span>`
     }
 
     function z(t) {
@@ -241,6 +247,8 @@ export default {
             u.y > o - 190 * i ? (s.style.top = n - 162 * i + "px", s.style.left = e + 30 * i + "px") : (s.style.top = n + 30 * i + "px", s.style.left = e + 30 * i + "px")
         }
     });
+
+
     let M = t => {
             document.getElementById("int-txt").innerHTML = t, f = w("int-txt"), R(f)
         },
@@ -291,7 +299,7 @@ export default {
                 }), document.addEventListener("mouseup", () => {
                     window.outerWidth > 1024 && !g && (S[B].i = 0, S[B].w = 0)
                 }), document.getElementById("intWord" + e).addEventListener("mouseenter", () => {
-                    if ((window.outerWidth < 1025 || g) && (document.getElementById("intWord" + e).style.color = "#2f2f30", document.getElementById("intWord" + e).style.backgroundColor = "#ff3b4e", -1 != I && F()), lks = I, I = e, window.outerWidth > 1024 && !g) {
+                    if ((window.outerWidth < 1025 || g) && (document.getElementById("intWord" + e).style.color = "#2f2f30", document.getElementById("intWord" + e).style.backgroundColor = "#ff3b4e", -1 != I && F()), I = e, window.outerWidth > 1024 && !g) {
                         document.getElementById("pwidget").style.display = "block"
                     }
                 }), document.getElementById("intWord" + e).addEventListener("mouseleave", () => {
@@ -313,6 +321,7 @@ export default {
             }
         };
     R(f);
+
     let P = t => {
             let e = window,
                 n = document,
@@ -348,6 +357,7 @@ export default {
     }), document.getElementById("reset-text-f").addEventListener("keyup", function(t) {
         "Enter" === t.key && "" != document.getElementById("reset-text").value && (M(document.getElementById("reset-text").value), V = 0, document.getElementById("txt-top").scrollIntoView())
     });
+
     let q = [];
     q[0] = document.getElementById("mslider1"), q[1] = document.getElementById("mslider2"), q[2] = document.getElementById("mslider3");
     let $ = window.outerWidth / 375;

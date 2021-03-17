@@ -16,7 +16,7 @@ import Cookies from "./components/Cookies";
 
 export default {
   name: "About",
-  
+
   components: {
     SpaceBoxOneAbout,
     AboutSection,
@@ -81,7 +81,7 @@ export default {
       var r, a;
       (r = s("theme")),
         (a = s("cookieson")),
-        console.log(r, a),
+        // console.log(r, a),
         "" != a
           ? ((t = r), n(), a || i())
           : (o("theme", 0, 2), o("cookieson", 0, 2), i());

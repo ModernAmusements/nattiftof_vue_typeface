@@ -1,11 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
-
-
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-
-
 import Typelab from "./views/Typelab.vue";
 import About from "./views/About.vue";
 import Privacy from "./views/Privacy.vue";

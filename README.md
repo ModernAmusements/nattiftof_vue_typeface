@@ -5,3 +5,9 @@
         /* overflow: hidden; */
     }
 }
+
+
+
+
+
+serve -s dist

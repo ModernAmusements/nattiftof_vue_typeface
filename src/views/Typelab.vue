@@ -143,7 +143,7 @@ export default {
         })(a, d);
       } catch (t) {
         !(function (t, n) {
-          if ((console.error(n), n && n.message))
+          if (n && n.message)
             switch (n.message) {
               case "ConsentNotGiven":
                 return void (t.className = `error ${e.NoConsent}`);

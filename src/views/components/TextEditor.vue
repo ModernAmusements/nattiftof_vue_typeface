@@ -114,7 +114,7 @@
                 </div>
                 <div class="text-editor-panel" id="te-panel">
                     <div class="te-otf-a h2o w400 te-oft-m te-oft-mu" id="otf0">fi</div>
-                    <div class="te-otf-c h2o w400 te-oft-m discr-l" id="otf1">ty</div>
+                    <!-- <div class="te-otf-c h2o w400 te-oft-m discr-l" id="otf1">ty</div>
                     <div class="te-otf-c h2o w400 te-oft-m" id="otf2">a<span class='styl-s'>a</span></div>
                     <div class="te-otf-c h2o w400 te-oft-m" id="otf3">в<span class="f-loc">в</span></div>
                     <div class="d-only te-otf-c h2o w400  ord-n te-oft-m" id="otf4">1a</div>
@@ -123,17 +123,17 @@
                     <div class="d-only te-otf-c h2o f-sub w400 te-oft-m" id="otf7">A2</div>
                     <div class="d-only te-otf-c h2o f-sup w400 te-oft-m" id="otf8">A2</div>
                     <div class="d-only te-otf-c h2o w400 fra-n te-oft-m" id="otf9">1/2</div>
-                    <div class="d-only te-otf-c h2o w400 sl-z te-oft-m" id="otf10">0</div>
-                    <div class="d-only te-otf-c h2b wvar w600 ot-li te-oft-m" id="otf11">
-                        <div class="">X</div>
-                    </div>
+                    <div class="d-only te-otf-c h2o w400 sl-z te-oft-m" id="otf10">0</div> -->
+                    <!-- <div class="d-only te-otf-c h2b wvar w600 ot-li te-oft-m" id="otf11">
+                    <div class="">X</div>
+                    </div> -->
                     <div class="otf-info m-only" id='otf-info'>
                         <div class="otf-info-holder w400 h4">
                         </div>
                     </div>
                 </div>
                 <div class="unsl">
-                    <div class="text-editor-paragraph" id="int-txt" oncontextmenu="return false;">Berlin 14 km! ЦИФРА type shape ☞ stormy night 17% out of 420 {MOTOR} figure ❺ översättare A zászlóshajó ⚐ Volleyballplatz → ретро музыка Декоративный? 30 Май 1672 год ROOM 1a върволица oт @ 3/4 pts.</div>
+                    <div class="text-editor-paragraph" id="int-txt" oncontextmenu="return false;">Berlin 14 km! 22:08 type form ☞ stormy Nacht 17% out of 190 {MOTOR} figure ❺ Jetzt bin ich zum Tod geworden, der Zerstörer der Welten. @ 3/4 pts.©</div>
                 </div>
                 <div class="text-editor-panel d-only"> </div>
                 <div class="text-editor-side d-only">
@@ -186,5 +186,4 @@ export default {
 };
 </script>
 <style>
-
 </style>

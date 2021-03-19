@@ -1,13 +1,1 @@
-@media (max-width: 1024px),
-(hover:none) {
-    html {
-        height: 100%;
-        /* overflow: hidden; */
-    }
-}
-
-
-
-
-
-serve -s dist
+The task was to develop a simple and clear website to promote and sell the font Nattiftof. User-friendliness, performance and accessibility were very important to the client. Therefore we decided to build this website based on VueJs to take advantage of this framework. Furthermore we have chosen Gsap for the animations.

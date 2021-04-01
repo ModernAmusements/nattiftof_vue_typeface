@@ -14,7 +14,7 @@
     </div>
     <div class="nav-part h4 w400">
       <router-link class="nav-ab d-only" to="/">Home</router-link>
-      <router-link class="nav-ab" to="/about">Über Uns</router-link>
+      <router-link class="nav-ab" to="/contact">Über Uns</router-link>
       <div class="nav-sub" id="subsb">
         <svg version="1.1" viewBox="0 0 64 47.9" xml:space="preserve">
           <path

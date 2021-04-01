@@ -15,7 +15,7 @@ import SpaceBoxTwoAbout from "./components/SpaceBoxTwoAbout";
 import Cookies from "./components/Cookies";
 
 export default {
-  name: "About",
+  name: "Contact",
   components: {
     SpaceBoxOneAbout,
     AboutSection,

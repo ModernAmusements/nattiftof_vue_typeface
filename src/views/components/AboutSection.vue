@@ -27,7 +27,7 @@
 </template>
 <script>
 export default {
-  name: "Heros",
+  name: "AboutSection",
   mounted() {
     window.addEventListener("load", function() {
     let d = (function () {
